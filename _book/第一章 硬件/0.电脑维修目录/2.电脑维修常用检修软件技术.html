@@ -1,0 +1,779 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>电脑维修常用检修软件技术 · Python学习手册</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Cgq">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="3.电脑维修常用硬件技术.html" />
+    
+    
+    <link rel="prev" href="1.电脑维修快速入门.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../../favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../favicon.ico' type="image/x-icon">
+    
+    
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"StrvieMeet/Python","types":["star"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://www.cnblogs.com/cgqsly/" target="_blank" class="custom-link">Ckk - 博客</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../目录 Python全栈学习路线/Python全栈学习路线.html">
+            
+                <a href="../../目录 Python全栈学习路线/Python全栈学习路线.html">
+            
+                    
+                    Python全栈学习路线
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    第一章:硬件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../1.操作系统简介.html">
+            
+                <a href="../1.操作系统简介.html">
+            
+                    
+                    1.操作系统简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../2.操作系统.html">
+            
+                <a href="../2.操作系统.html">
+            
+                    
+                    2.操作系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    3.电脑维修目录
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="1.电脑维修快速入门.html">
+            
+                <a href="1.电脑维修快速入门.html">
+            
+                    
+                    电脑维修快速入门
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3.2" data-path="2.电脑维修常用检修软件技术.html">
+            
+                <a href="2.电脑维修常用检修软件技术.html">
+            
+                    
+                    电脑维修常用检修软件技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3" data-path="3.电脑维修常用硬件技术.html">
+            
+                <a href="3.电脑维修常用硬件技术.html">
+            
+                    
+                    电脑维修常用硬件技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4" data-path="4.操作系统维修技术.html">
+            
+                <a href="4.操作系统维修技术.html">
+            
+                    
+                    操作系统维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.5" data-path="5.注册表维修技术.html">
+            
+                <a href="5.注册表维修技术.html">
+            
+                    
+                    注册表维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6" data-path="6.电脑上网维修技术.html">
+            
+                <a href="6.电脑上网维修技术.html">
+            
+                    
+                    电脑上网维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.7" data-path="7.防黑杀毒维修技术.html">
+            
+                <a href="7.防黑杀毒维修技术.html">
+            
+                    
+                    防黑杀毒维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8" data-path="8.数据恢复与拯救技术.html">
+            
+                <a href="8.数据恢复与拯救技术.html">
+            
+                    
+                    数据恢复与拯救技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.9" data-path="9.主板维修技术.html">
+            
+                <a href="9.主板维修技术.html">
+            
+                    
+                    主板维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.10" data-path="10.BIOS维修技术.html">
+            
+                <a href="10.BIOS维修技术.html">
+            
+                    
+                    BIOS维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.11" data-path="11.CPU维修技术.html">
+            
+                <a href="11.CPU维修技术.html">
+            
+                    
+                    CPU维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.12" data-path="12.内存维修技术.html">
+            
+                <a href="12.内存维修技术.html">
+            
+                    
+                    内存维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.13" data-path="13.硬盘、光驱、刻录机维修技术.html">
+            
+                <a href="13.硬盘、光驱、刻录机维修技术.html">
+            
+                    
+                    硬盘、光驱、刻录机维修技术
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.13.1" data-path="14.显卡、声卡维修技术">
+            
+                <span>
+            
+                    
+                    显卡、声卡维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >电脑维修常用检修软件技术</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><a href="#&#x7535;&#x8111;&#x7EF4;&#x4FEE;&#x5E38;&#x7528;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;&#x6280;&#x672F;">&#x7535;&#x8111;&#x7EF4;&#x4FEE;&#x5E38;&#x7528;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;&#x6280;&#x672F;</a></li></ul></div><a href="#&#x7535;&#x8111;&#x7EF4;&#x4FEE;&#x5E38;&#x7528;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;&#x6280;&#x672F;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x7535;&#x8111;&#x7EF4;&#x4FEE;&#x5E38;&#x7528;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;&#x6280;&#x672F;"><a name="&#x7535;&#x8111;&#x7EF4;&#x4FEE;&#x5E38;&#x7528;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;&#x6280;&#x672F;" class="anchor-navigation-ex-anchor" href="#&#x7535;&#x8111;&#x7EF4;&#x4FEE;&#x5E38;&#x7528;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;&#x6280;&#x672F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7535;&#x8111;&#x7EF4;&#x4FEE;&#x5E38;&#x7528;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;&#x6280;&#x672F;</h1>
+<!-- toc -->
+<ul>
+<li><a href="#1.%3Cfont-color=brown%3E**%E7%94%A8%E8%BD%AF%E7%9B%98%E5%90%AF%E5%8A%A8%E8%BF%9B%E5%85%A5**dos%3C/font%3E">1.<font color="brown"><strong>&#x7528;&#x8F6F;&#x76D8;&#x542F;&#x52A8;&#x8FDB;&#x5165;</strong>DOS</font></a></li>
+<li><a href="#2.%3Cfont-color=brown%3E%E5%90%AF%E5%8A%A8%E5%88%B0dos%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BF%87%E7%A8%8B%3C/font%3E">2.<font color="brown">&#x542F;&#x52A8;&#x5230;DOS&#x7CFB;&#x7EDF;&#x7684;&#x8FC7;&#x7A0B;</font></a></li>
+<li><a href="#3.%3Cfont-color=brown%3E%E7%94%A8windows%E5%AE%89%E8%A3%85%E5%85%89%E7%9B%98%E5%90%AF%E5%8A%A8%E8%BF%9B%E5%85%A5dos%3C/font%3E">3.<font color="brown">&#x7528;Windows&#x5B89;&#x88C5;&#x5149;&#x76D8;&#x542F;&#x52A8;&#x8FDB;&#x5165;DOS</font></a></li>
+<li><a href="#4.%3Cfont-color=brown%3Edos%E5%B7%A5%E5%85%B7%E2%80%94%E2%80%94ghost%E7%BB%B4%E4%BF%AE%E8%BD%AF%E4%BB%B6%3C/font%3E">4.<font color="brown">DOS&#x5DE5;&#x5177;&#x2014;&#x2014;Ghost&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;</font></a></li>
+<li><a href="#5.%3Cfont-color=brown%3E%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E4%B8%8E%E7%BB%B4%E4%BF%AE%E8%BD%AF%E4%BB%B6%3C/font%3E">5.<font color="brown">&#x7CFB;&#x7EDF;&#x6027;&#x80FD;&#x6D4B;&#x8BD5;&#x4E0E;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;</font></a></li>
+<li><a href="#6.%3Cfont-color=brown%3E%E5%B1%80%E5%9F%9F%E7%BD%91%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B%E4%B8%8E%E7%BB%B4%E4%BF%AE%3C/font%3E">6.<font color="brown">&#x5C40;&#x57DF;&#x7F51;&#x6027;&#x80FD;&#x68C0;&#x6D4B;&#x4E0E;&#x7EF4;&#x4FEE;</font></a></li>
+<li><a href="#7.%3Cfont-color=brown%3Ecpu%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B%E4%B8%8E%E7%BB%B4%E4%BF%AE%E8%BD%AF%E4%BB%B6%3C/font%3E">7.<font color="brown">CPU&#x6027;&#x80FD;&#x68C0;&#x6D4B;&#x4E0E;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;</font></a></li>
+</ul>
+<!-- tocstop -->
+<p><strong>&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x6D89;&#x53CA;&#x5230;&#x7684;&#x68C0;&#x6D4B;&#x5305;&#x62EC;DOS&#x7684;&#x8FDB;&#x5165;&#x4E0E;&#x8BBE;&#x7F6E;&#xFF0C;&#x7CFB;&#x7EDF;&#x7684;&#x6027;&#x80FD;&#xFF0C;&#x7CFB;&#x7EDF;&#x7684;&#x4F18;&#x5316;&#x4E0E;&#x5B89;&#x5168;&#xFF0C;&#x591A;&#x7CFB;&#x7EDF;&#x8BBE;&#x7F6E;&#xFF0C;&#x6570;&#x636E;&#x5907;&#x4EFD;&#x6062;&#x590D;&#x4E0E;&#x62EF;&#x6551;&#x4EE5;&#x53CA;&#x6CE8;&#x518C;&#x8868;&#x7684;&#x4FEE;&#x6539;&#x6062;&#x590D;&#x4E0E;&#x5220;&#x9664;&#x3002;&#x8FD9;&#x91CC;&#x9009;&#x62E9;&#x6027;&#x5730;&#x4ECB;&#x7ECD;&#x4E00;&#x4E9B;&#x5E38;&#x7528;&#x7684;&#x68C0;&#x4FEE;&#x6280;&#x672F;&#x3002;</strong></p>
+<p><strong>&#x7528;Windows&#x7684;&#x5B89;&#x88C5;&#x5149;&#x76D8;&#x6216;&#x7CFB;&#x7EDF;&#x8F6F;&#x76D8;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x8FDB;&#x5165;DOS&#x6A21;&#x5F0F;&#x3002;&#x5728;Windows&#x7CFB;&#x7EDF;&#x4E2D;&#xFF0C;&#x9009;&#x62E9;&#x201C;&#x5F00;&#x59CB;&#x201D;&#x2192;&#x201C;&#x8FD0;&#x884C;&#x201D;&#x547D;&#x4EE4;&#xFF0C;&#x8F93;&#x5165;&#x201C;cmd&#x201D;&#x547D;&#x4EE4;&#x540E;&#x8FDB;&#x5165;&#x7684;&#x547D;&#x4EE4;&#x63D0;&#x793A;&#x7B26;&#x72B6;&#x6001;&#xFF0C;&#x8FD9;&#x8FD8;&#x4E0D;&#x662F;&#x771F;&#x6B63;&#x7684;DOS&#x72B6;&#x6001;&#x3002;&#x5FC5;&#x987B;&#x5148;&#x5B89;&#x88C5;&#x4E00;&#x4E2A;MAX-DOS&#xFF0C;&#x4E0E;Windows&#x517C;&#x5BB9;&#xFF0C;&#x5F00;&#x673A;&#x9009;&#x9879;&#x9009;&#x62E9;MAX-DOS&#xFF0C;&#x8FDB;&#x5165;DOS&#x72B6;&#x6001;&#x3002;</strong></p>
+<h3 id="1&#x7528;&#x8F6F;&#x76D8;&#x542F;&#x52A8;&#x8FDB;&#x5165;dos"><a name="1&#x7528;&#x8F6F;&#x76D8;&#x542F;&#x52A8;&#x8FDB;&#x5165;dos" class="anchor-navigation-ex-anchor" href="#1&#x7528;&#x8F6F;&#x76D8;&#x542F;&#x52A8;&#x8FDB;&#x5165;dos"><i class="fa fa-link" aria-hidden="true"></i></a>1.&#x7528;&#x8F6F;&#x76D8;&#x542F;&#x52A8;&#x8FDB;&#x5165;DOS</h3>
+<ul>
+<li><p>&#x7528;&#x8F6F;&#x76D8;&#x542F;&#x52A8;&#x8FDB;&#x5165;DOS&#x7684;&#x6B65;&#x9AA4;&#x5982;&#x4E0B;&#x3002;</p>
+</li>
+<li><p>&#x8BBE;&#x7F6E;&#x8F6F;&#x9A71;&#x4E3A;&#x7B2C;&#x4E00;&#x542F;&#x52A8;&#x76D8;&#x3002;&#x5F53;&#x7535;&#x8111;&#x521A;&#x521A;&#x542F;&#x52A8;&#x65F6;&#x51FA;&#x73B0;&#xFF08;&#x5982;&#x56FE;26&#x6240;&#x793A;&#xFF09;&#x7684;&#x753B;&#x9762;&#x3002;</p>
+<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/26.png" alt=""></li>
+</ul>
+</li>
+<li><p>&#x6839;&#x636E;&#x754C;&#x9762;&#x63D0;&#x793A;&#xFF0C;&#x6309;&#x4F4F;&#x201C;Del&#x201D;&#x952E;&#x6216;&#x201C;Delete&#x201D;&#x952E;&#x4E0D;&#x653E;&#xFF0C;&#x8FDB;&#x5165;CMOS&#x8BBE;&#x7F6E;&#x3002;&#x63A5;&#x7740;&#x6309;&#x952E;&#x76D8;&#x4E0A;&#x7684;&#x65B9;&#x5411;&#x952E;&#x9009;&#x62E9;&#x201C;Advanced BIOS Features&#x201D;&#x9879;&#x3002;&#x5982;&#x56FE;27&#x6240;&#x793A;&#x3002;</p>
+<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/27.png" alt=""></li>
+</ul>
+</li>
+<li><p>&#x6309;&#x201C;Enter&#x201D;&#x952E;&#xFF0C;&#x8FDB;&#x5165;&#x201C;Advanced BIOS Features&#x201D;&#x9879;&#x8BBE;&#x7F6E;&#xFF0C;&#x5982;&#x56FE;28&#x6240;&#x793A;&#x3002;</p>
+<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/28-6776990.png" alt=""></li>
+</ul>
+</li>
+<li><p>|          |                                                              |
+| -------- | ------------------------------------------------------------ |
+| <strong>&#x63D0;&#x793A;</strong> | &#x201C;First Boot Device&#x201D;&#x9879;&#x4E3A;&#x8BBE;&#x7F6E;&#x7B2C;&#x4E00;&#x542F;&#x52A8;&#x76D8;&#x9879;&#xFF0C;&#x8BBE;&#x7F6E;&#x4E3A;&#x201C;Floppy&#x201D;&#x5373;&#x8F6F;&#x76D8;&#xFF1B;&#x201C;Second Boot Device&#x201D;&#x9879;&#x4E3A;&#x8BBE;&#x7F6E;&#x7B2C;&#x4E8C;&#x542F;&#x52A8;&#x76D8;&#x9879;&#xFF0C;&#x8BBE;&#x7F6E;&#x4E3A;&#x201C;HDD-0&#x201D;&#x5373;&#x9ED8;&#x8BA4;&#x786C;&#x76D8;&#x3002; |</p>
+</li>
+<li><p>&#x6B64;&#x65F6;&#xFF0C;&#x6309;&#x201C;Enter&#x201D;&#x952E;&#xFF0C;&#x51FA;&#x73B0;&#x5982;&#x56FE;29&#x6240;&#x793A;&#x7684;&#x754C;&#x9762;&#x3002;</p>
+<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/29-6777016.png" alt=""></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>&#x6309;&#x4E0B;&#x952E;&#x76D8;&#x4E0A;&#x7684;&#x65B9;&#x5411;&#x952E;&#x9009;&#x62E9;&#x201C;Floppy&#x201D;&#x9879;&#x540E;&#xFF0C;&#x6309;&#x201C;Enter&#x201D;&#x952E;&#xFF0C;&#x5373;&#x5B8C;&#x6210;&#x8BE5;&#x9879;&#x8BBE;&#x7F6E;&#x5E76;&#x91CD;&#x65B0;&#x8FD4;&#x56DE;&#x4E86;&#x5982;&#x56FE;29&#x6240;&#x793A;&#x7684;&#x754C;&#x9762;&#x3002;&#x540C;&#x7406;&#x53EF;&#x8BBE;&#x7F6E;&#x201C;Second Boot Device&#x201D;&#x9879;&#x4E3A;&#x201C;HDD-0&#x201D;&#x3002;&#x8BBE;&#x7F6E;&#x5B8C;&#x6210;&#x540E;&#x6309;&#x201C;Esc&#x201D;&#x952E;&#x9000;&#x51FA;&#x5230;&#x5982;&#x56FE;27&#x6240;&#x793A;&#x754C;&#x9762;&#xFF0C;&#x9009;&#x62E9;&#x201C;Save &amp; Exit Setup&#x201D;&#x9879;&#xFF0C;&#x4FDD;&#x5B58;&#x8BBE;&#x7F6E;&#x5E76;&#x9000;&#x51FA;&#x3002;&#x5982;&#x56FE;30&#x6240;&#x793A;&#x3002;</p>
+<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/30.png" alt=""></li>
+<li>&#x5728;&#x5B89;&#x88C5;&#x5B8C;&#x7CFB;&#x7EDF;&#x540E;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x9700;&#x8981;&#x7ECF;&#x5E38;&#x8F6C;&#x5230;DOS&#x7CFB;&#x7EDF;&#x65F6;&#xFF0C;&#x5C06;&#x7B2C;&#x4E00;&#x542F;&#x52A8;&#x76D8;&#x9879;&#x8BBE;&#x7F6E;&#x6210;&#x201C;HDD-0&#x201D;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<h3 id="2&#x542F;&#x52A8;&#x5230;dos&#x7CFB;&#x7EDF;&#x7684;&#x8FC7;&#x7A0B;"><a name="2&#x542F;&#x52A8;&#x5230;dos&#x7CFB;&#x7EDF;&#x7684;&#x8FC7;&#x7A0B;" class="anchor-navigation-ex-anchor" href="#2&#x542F;&#x52A8;&#x5230;dos&#x7CFB;&#x7EDF;&#x7684;&#x8FC7;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a>2.&#x542F;&#x52A8;&#x5230;DOS&#x7CFB;&#x7EDF;&#x7684;&#x8FC7;&#x7A0B;</h3>
+<ul>
+<li>&#x4EE5;Windows&#x4E3A;&#x4F8B;&#x3002;&#x5C06;Windows&#x542F;&#x52A8;&#x76D8;&#x63D2;&#x5165;&#x8F6F;&#x76D8;&#x9A71;&#x52A8;&#x5668;&#xFF0C;&#x7136;&#x540E;&#x542F;&#x52A8;&#x7535;&#x8111;&#xFF0C;&#x51FA;&#x73B0;&#x5982;&#x56FE;31&#x6240;&#x793A;&#x754C;&#x9762;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/31.png" alt=""></li>
+</ul>
+</li>
+<li>&#x5982;&#x56FE;2-6&#x6240;&#x793A;&#x754C;&#x9762;&#x7684;&#x542F;&#x52A8;&#x9009;&#x9879;&#x81EA;&#x4E0A;&#x800C;&#x4E0B;&#x5206;&#x522B;&#x8868;&#x793A;&#x201C;&#x542F;&#x52A8;&#x65F6;&#x52A0;&#x8F7D;&#x5149;&#x9A71;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x201D;&#x3001;&#x201C;&#x542F;&#x52A8;&#x65F6;&#x4E0D;&#x52A0;&#x8F7D;&#x5149;&#x9A71;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x201D;&#x3001;&#x201C;&#x542F;&#x52A8;&#x5E2E;&#x52A9;&#x201D;&#x3002;&#x6CA1;&#x6709;&#x4F5C;&#x51FA;&#x9009;&#x62E9;&#x65F6;&#xFF0C;&#x7CFB;&#x7EDF;&#x5C06;&#x5728;30&#x79D2;&#x540E;&#x9ED8;&#x8BA4;&#x542F;&#x52A8;&#x7B2C;&#x4E00;&#x9879;&#x3002;</li>
+<li>&#x7528;&#x952E;&#x76D8;&#x4E0A;&#x7684;&#x65B9;&#x5411;&#x952E;&#x9009;&#x62E9;&#x201C;Start computer without CD-ROM support&#x201D;&#x9879;&#xFF0C;&#x6309;&#x4E0B;&#x201C;Enter&#x201D;&#x952E;&#x540E;&#xFF0C;&#x5C31;&#x53EF;&#x987A;&#x5229;&#x542F;&#x52A8;&#x5230;&#x7EAF;DOS&#x7CFB;&#x7EDF;&#x3002;&#x5982;&#x56FE;32&#x6240;&#x793A;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/32.png" alt=""></li>
+</ul>
+</li>
+<li>&#x7528;&#x542F;&#x52A8;&#x76D8;&#x542F;&#x52A8;&#x8FDB;&#x5165;DOS&#x7CFB;&#x7EDF;&#x65F6;&#xFF0C;&#x7528;&#x52A0;&#x8F7D;&#x5149;&#x9A71;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x6A21;&#x5F0F;&#x4E0B;&#x542F;&#x52A8;&#xFF0C;&#x5149;&#x9A71;&#x7684;&#x76D8;&#x7B26;&#x6BD4;&#x5B9E;&#x9645;&#x76D8;&#x7B26;&#x5411;&#x540E;&#x63A8;&#x8FDF;&#x4E00;&#x4E2A;&#x76D8;&#x7B26;&#xFF0C;&#x5982;&#x5149;&#x9A71;&#x5728;Windows&#x7CFB;&#x7EDF;&#x4E2D;&#x662F;F&#x76D8;&#xFF0C;&#x5373;&#x6B64;&#x5904;&#x53D8;&#x6210;G&#x76D8;&#x3002;</li>
+<li>&#x82E5;&#x5728;&#x542F;&#x52A8;DOS&#x65F6;&#x9009;&#x62E9;&#x52A0;&#x8F7D;&#x5149;&#x9A71;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#xFF0C;&#x5982;&#x56FE;32&#x6240;&#x793A;&#x754C;&#x9762;&#x7684;&#x5012;&#x6570;&#x7B2C;3&#x884C;&#x82F1;&#x6587;&#xFF0C;&#x663E;&#x793A;&#x7684;&#x5C31;&#x662F;&#x5149;&#x9A71;&#x6240;&#x7528;&#x7684;&#x76D8;&#x7B26;&#x3002;&#x82E5;&#x7528;&#x542F;&#x52A8;&#x76D8;&#x542F;&#x52A8;&#x8FDB;&#x5165;DOS&#x7CFB;&#x7EDF;&#x65F6;&#xFF0C;&#x9009;&#x62E9;&#x4E0D;&#x52A0;&#x8F7D;&#x5149;&#x9A71;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#xFF0C;&#x8FDB;&#x5165;DOS&#x540E;&#x662F;&#x4E0D;&#x80FD;&#x8BFB;&#x53D6;&#x5149;&#x9A71;&#x4E2D;&#x7684;&#x5185;&#x5BB9;&#x7684;&#x3002;</li>
+</ul>
+<h3 id="3&#x7528;windows&#x5B89;&#x88C5;&#x5149;&#x76D8;&#x542F;&#x52A8;&#x8FDB;&#x5165;dos"><a name="3&#x7528;windows&#x5B89;&#x88C5;&#x5149;&#x76D8;&#x542F;&#x52A8;&#x8FDB;&#x5165;dos" class="anchor-navigation-ex-anchor" href="#3&#x7528;windows&#x5B89;&#x88C5;&#x5149;&#x76D8;&#x542F;&#x52A8;&#x8FDB;&#x5165;dos"><i class="fa fa-link" aria-hidden="true"></i></a>3.&#x7528;Windows&#x5B89;&#x88C5;&#x5149;&#x76D8;&#x542F;&#x52A8;&#x8FDB;&#x5165;DOS</h3>
+<ul>
+<li><p>&#x7528;Windows&#x5B89;&#x88C5;&#x5149;&#x76D8;&#x542F;&#x52A8;&#x8FDB;&#x5165;DOS&#x7CFB;&#x7EDF;&#xFF0C;&#x6B65;&#x9AA4;&#x5982;&#x4E0B;&#x3002;</p>
+</li>
+<li><p>&#x5C06;&#x5149;&#x9A71;&#x8BBE;&#x7F6E;&#x4E3A;&#x7B2C;&#x4E00;&#x542F;&#x52A8;&#x76D8;&#xFF08;&#x65B9;&#x6CD5;&#x5982;&#x540C;&#x8BBE;&#x7F6E;&#x8F6F;&#x9A71;&#x4E3A;&#x7B2C;&#x4E00;&#x542F;&#x52A8;&#x76D8;&#xFF09;&#x540E;&#xFF0C;&#x5C06;Windows&#x5B89;&#x88C5;&#x5149;&#x76D8;&#x653E;&#x5165;&#x5149;&#x9A71;&#x4E2D;&#xFF0C;&#x91CD;&#x65B0;&#x542F;&#x52A8;&#x7535;&#x8111;&#x3002;</p>
+<p>&#x8981;&#x8FDB;&#x5165;&#x7EAF;DOS&#x5C31;&#x9009;&#x7B2C;3&#x9879;&#xFF08;&#x9009;&#x7B2C;2&#x9879;&#x4E5F;&#x53EF;&#x8FDB;DOS&#xFF09;&#xFF0C;&#x6309;&#x4E0B;&#x201C;Enter&#x201D;&#x952E;&#xFF0C;&#x51FA;&#x73B0;&#x5982;&#x56FE;33&#x6240;&#x793A;&#x3002;</p>
+<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/33.png" alt=""></li>
+</ul>
+</li>
+</ul>
+<h3 id="4dos&#x5DE5;&#x5177;&#x2014;&#x2014;ghost&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;"><a name="4dos&#x5DE5;&#x5177;&#x2014;&#x2014;ghost&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;" class="anchor-navigation-ex-anchor" href="#4dos&#x5DE5;&#x5177;&#x2014;&#x2014;ghost&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;"><i class="fa fa-link" aria-hidden="true"></i></a>4.DOS&#x5DE5;&#x5177;&#x2014;&#x2014;Ghost&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;</h3>
+<ul>
+<li>Ghost&#x8F6F;&#x4EF6;&#x662F;&#x7F8E;&#x56FD;&#x8D5B;&#x95E8;&#x94C1;&#x514B;&#x516C;&#x53F8;&#x63A8;&#x51FA;&#x7684;&#x4E00;&#x6B3E;&#x51FA;&#x8272;&#x7684;&#x786C;&#x76D8;&#x5907;&#x4EFD;&#x8FD8;&#x539F;&#x5DE5;&#x5177;&#xFF0C;&#x4FD7;&#x79F0;&#x514B;&#x9686;&#x8F6F;&#x4EF6;&#xFF0C;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;FAT16&#x3001;FAT32&#x3001;NTFS&#x3001;OS2&#x7B49;&#x591A;&#x79CD;&#x786C;&#x76D8;&#x5206;&#x533A;&#x683C;&#x5F0F;&#x7684;&#x5206;&#x533A;&#x53CA;&#x786C;&#x76D8;&#x7684;&#x5907;&#x4EFD;&#x8FD8;&#x539F;&#x3002;</li>
+<li>Ghost&#x7684;&#x5907;&#x4EFD;&#x8FD8;&#x539F;&#x662F;&#x4EE5;&#x786C;&#x76D8;&#x7684;&#x6247;&#x533A;&#x4E3A;&#x5355;&#x4F4D;&#x8FDB;&#x884C;&#x7684;&#xFF0C;&#x5B83;&#x53EF;&#x4EE5;&#x5C06;&#x4E00;&#x4E2A;&#x786C;&#x76D8;&#x4E0A;&#x7684;&#x7269;&#x7406;&#x4FE1;&#x606F;&#x5B8C;&#x6574;&#x590D;&#x5236;&#xFF0C;&#x5E76;&#x4E14;&#x53EF;&#x4EE5;&#x5C06;&#x5206;&#x533A;&#x6216;&#x786C;&#x76D8;&#x76F4;&#x63A5;&#x5907;&#x4EFD;&#x5230;&#x4E00;&#x4E2A;&#x6269;&#x5C55;&#x540D;&#x4E3A;&#x201C;.gho&#x201D;&#x7684;&#x6587;&#x4EF6;&#x4E2D;&#x3002;</li>
+<li>Ghost&#x5DE5;&#x5177;&#x662F;&#x5C06;&#x6574;&#x4E2A;&#x786C;&#x76D8;&#x6216;&#x8005;&#x662F;&#x786C;&#x76D8;&#x4E0A;&#x7684;&#x5206;&#x533A;&#x4F5C;&#x4E3A;&#x64CD;&#x4F5C;&#x5BF9;&#x8C61;&#x3002;</li>
+<li>&#x5728;&#x5907;&#x4EFD;&#x7CFB;&#x7EDF;&#x65F6;&#xFF0C;&#x786C;&#x76D8;&#x81F3;&#x5C11;&#x5E94;&#x8BE5;&#x6709;&#x4E24;&#x4E2A;&#x6216;&#x4E24;&#x4E2A;&#x4EE5;&#x4E0A;&#x7684;&#x5206;&#x533A;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x6709;&#x4E24;&#x4E2A;&#x786C;&#x76D8;&#x3002;&#x5176;&#x4E2D;C&#x76D8;&#x7528;&#x6765;&#x5B89;&#x88C5;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF0C;&#x4F7F;&#x7528;Ghost&#x5907;&#x4EFD;&#x7CFB;&#x7EDF;&#x65F6;&#x9009;&#x62E9;&#x5176;&#x4ED6;&#x5206;&#x533A;&#x8FDB;&#x884C;&#x4FDD;&#x5B58;&#x3002;</li>
+<li>Ghost&#x7684;&#x78C1;&#x76D8;&#x64CD;&#x4F5C;&#x4E3B;&#x8981;&#x5305;&#x62EC;3&#x79CD;&#x64CD;&#x4F5C;&#xFF1A;Local Disk To Disk&#xFF08;&#x672C;&#x5730;&#x78C1;&#x76D8;&#x5230;&#x78C1;&#x76D8;&#xFF09;&#xFF1B;Local Disk To Image&#xFF08;&#x672C;&#x5730;&#x78C1;&#x76D8;&#x5230;&#x6620;&#x50CF;&#x6587;&#x4EF6;&#xFF09;&#xFF1B;Local Disk From Image&#xFF08;&#x6620;&#x50CF;&#x6587;&#x4EF6;&#x5230;&#x672C;&#x5730;&#x78C1;&#x76D8;&#xFF09;&#x3002;</li>
+<li>&#x7528;Ghost&#x5DE5;&#x5177;&#x4E2D;&#x7684;Local Disk To Disk&#xFF0C;&#x53EF;&#x4EE5;&#x628A;&#x4E00;&#x4E2A;&#x786C;&#x76D8;&#x4E0A;&#x6240;&#x6709;&#x7684;&#x6570;&#x636E;&#x5B8C;&#x6574;&#x590D;&#x5236;&#x5230;&#x53E6;&#x5916;&#x4E00;&#x4E2A;&#x786C;&#x76D8;&#x4E0A;&#x3002;&#x5177;&#x4F53;&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;&#x5982;&#x4E0B;&#x3002;<ul>
+<li>&#x7528;&#x542F;&#x52A8;&#x76D8;&#x5F15;&#x5BFC;&#x7CFB;&#x7EDF;&#x5230;DOS&#x6A21;&#x5F0F;&#x4E0B;&#xFF0C;&#x7136;&#x540E;&#x8FDB;&#x5165;Ghost&#x5DE5;&#x5177;&#x6240;&#x5728;&#x76EE;&#x5F55;&#xFF0C;&#x518D;&#x8F93;&#x5165;&#x201C;ghost&#x201D;&#x547D;&#x4EE4;&#xFF0C;&#x6309;&#x201C;Enter&#x201D;&#x952E;&#xFF0C;&#x8FDB;&#x5165;Ghost&#x6B22;&#x8FCE;&#x754C;&#x9762;&#xFF1B;&#x518D;&#x6309;&#x201C;Enter&#x201D;&#x952E;&#x786E;&#x8BA4;&#xFF0C;&#x8FDB;&#x5165;Ghost&#x7684;&#x4E3B;&#x754C;&#x9762;&#xFF0C;&#x7136;&#x540E;&#x4F7F;&#x7528;&#x65B9;&#x5411;&#x952E;&#x9009;&#x62E9;&#x201C;Local&#x201D;&#x2192;&#x201C;Disk&#x201D;&#x2192;&#x201C;To Disk&#x201D;&#x547D;&#x4EE4;&#xFF0C;&#x5982;&#x56FE;34&#x6240;&#x793A;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/34.png" alt=""></li>
+</ul>
+</li>
+<li>&#x6309;&#x4E0B;&#x201C;Enter&#x201D;&#x952E;&#xFF0C;&#x8FDB;&#x5165;&#x5982;&#x56FE;35&#x6240;&#x793A;&#x754C;&#x9762;&#x3002;&#x56FE;&#x4E2D;&#x663E;&#x793A;&#x51FA;&#x78C1;&#x76D8;&#x7684;&#x76F8;&#x5173;&#x4FE1;&#x606F;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/35.png" alt=""></li>
+</ul>
+</li>
+<li>&#x9ED8;&#x8BA4;&#x9009;&#x62E9;&#x7B2C;&#x4E00;&#x5757;&#x786C;&#x76D8;&#xFF0C;&#x76F4;&#x63A5;&#x6309;&#x4E0B;&#x201C;Enter&#x201D;&#x952E;&#xFF0C;&#x8FDB;&#x5165;&#x5982;&#x56FE;36&#x6240;&#x793A;&#x754C;&#x9762;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/36.png" alt=""></li>
+</ul>
+</li>
+<li>&#x7531;&#x4E8E;&#x53EA;&#x6709;&#x4E24;&#x5757;&#x78C1;&#x76D8;&#xFF0C;&#x53EF;&#x76F4;&#x63A5;&#x6309;&#x4E0B;&#x201C;Enter&#x201D;&#x952E;&#xFF0C;&#x7136;&#x540E;&#x8FDB;&#x5165;&#x5982;&#x56FE;37&#x6240;&#x793A;&#x754C;&#x9762;&#x3002;&#x6B64;&#x754C;&#x9762;&#x4E2D;&#x53EF;&#x4EE5;&#x91CD;&#x65B0;&#x8BBE;&#x7F6E;&#x514B;&#x9686;&#x540E;&#x7684;&#x5206;&#x533A;&#x5927;&#x5C0F;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/37.png" alt=""></li>
+</ul>
+</li>
+<li>&#x4F7F;&#x7528;&#x9ED8;&#x8BA4;&#x8BBE;&#x7F6E;&#xFF0C;&#x6309;&#x4E0B;&#x201C;Alt+O&#x201D;&#x7EC4;&#x5408;&#x952E;&#x786E;&#x8BA4;&#x540E;&#xFF0C;&#x8FDB;&#x5165;&#x590D;&#x5236;&#x754C;&#x9762;&#xFF0C;&#x5E76;&#x6253;&#x5F00;&#x4E00;&#x4E2A;&#x8B66;&#x544A;&#x63D0;&#x793A;&#x6846;&#xFF0C;&#x9ED8;&#x8BA4;&#x9009;&#x62E9;&#x201C;No&#x201D;&#x9009;&#x9879;&#xFF0C;&#x5982;&#x56FE;38&#x6240;&#x793A;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/38.png" alt=""></li>
+</ul>
+</li>
+<li>&#x6309;&#x4E0B;&#x201C;Alt+Y&#x201D;&#x7EC4;&#x5408;&#x952E;&#x540E;&#x5F00;&#x59CB;&#x78C1;&#x76D8;&#x7684;&#x514B;&#x9686;&#xFF0C;&#x754C;&#x9762;&#x5C06;&#x663E;&#x793A;&#x8FDB;&#x5EA6;&#x3001;&#x590D;&#x5236;&#x901F;&#x5EA6;&#x548C;&#x5269;&#x4F59;&#x65F6;&#x95F4;&#x7B49;&#x4FE1;&#x606F;&#xFF0C;&#x5982;&#x56FE;39&#x6240;&#x793A;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/39.png" alt=""></li>
+</ul>
+</li>
+<li>&#x590D;&#x5236;&#x5B8C;&#x6210;&#x540E;&#xFF0C;Ghost&#x4F1A;&#x63D0;&#x793A;&#x8981;&#x6C42;&#x91CD;&#x65B0;&#x542F;&#x52A8;&#x7535;&#x8111;&#xFF0C;&#x8FD9;&#x65F6;&#x76F4;&#x63A5;&#x6309;&#x4E0B;&#x201C;Enter&#x201D;&#x952E;&#x5C31;&#x4F1A;&#x91CD;&#x542F;&#x7535;&#x8111;&#x3002;&#x5982;&#x56FE;40&#x6240;&#x793A;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/40.png" alt=""></li>
+</ul>
+</li>
+<li>&#x5230;&#x6B64;&#xFF0C;&#x514B;&#x9686;&#x5B8C;&#x6BD5;&#x3002;&#x8FD9;&#x79CD;&#x65B9;&#x6CD5;&#x5728;&#x7528;&#x6237;&#x590D;&#x5236;&#x5927;&#x786C;&#x76D8;&#x7684;&#x6587;&#x4EF6;&#x6BD4;&#x8F83;&#x6709;&#x6548;&#xFF0C;&#x901F;&#x5EA6;&#x4E5F;&#x76F8;&#x5BF9;&#x6BD4;&#x8F83;&#x5FEB;&#x3002;</li>
+</ul>
+</li>
+<li>&#x76EE;&#x6807;&#x786C;&#x76D8;&#x4E0D;&#x80FD;&#x592A;&#x5C0F;&#xFF0C;&#x5FC5;&#x987B;&#x80FD;&#x5C06;&#x6E90;&#x786C;&#x76D8;&#x7684;&#x6570;&#x636E;&#x5185;&#x5BB9;&#x88C5;&#x4E0B;&#x3002;</li>
+<li>&#x6309;&#x7167;&#x7C7B;&#x4F3C;&#x7684;&#x6B65;&#x9AA4;&#x53EF;&#x4EE5;&#x5C06;&#x78C1;&#x76D8;&#x4FDD;&#x5B58;&#x4E3A;&#x6620;&#x50CF;&#x4EE5;&#x53CA;&#x78C1;&#x76D8;&#x6620;&#x50CF;&#x6587;&#x4EF6;&#x6062;&#x590D;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#x3002;</li>
+<li>&#x5728;&#x5BF9;&#x78C1;&#x76D8;&#x8FDB;&#x884C;&#x514B;&#x9686;&#x6216;&#x8005;&#x6062;&#x590D;&#x78C1;&#x76D8;&#x64CD;&#x4F5C;&#x65F6;&#x8BF7;&#x786E;&#x8BA4;&#x64CD;&#x4F5C;&#x7684;&#x78C1;&#x76D8;&#x4E0A;&#x6CA1;&#x6709;&#x91CD;&#x8981;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x5426;&#x5219;&#x4F1A;&#x9020;&#x6210;&#x6570;&#x636E;&#x4E22;&#x5931;&#x3002;</li>
+<li>&#x4F7F;&#x7528;Ghost&#x5DE5;&#x5177;&#x80FD;&#x5F88;&#x5FEB;&#x7684;&#x5907;&#x4EFD;&#x786C;&#x76D8;&#x4E0A;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x800C;&#x4E14;&#x64CD;&#x4F5C;&#x8D77;&#x6765;&#x4E5F;&#x4E0D;&#x662F;&#x5F88;&#x590D;&#x6742;&#x3002;</li>
+</ul>
+<h3 id="5&#x7CFB;&#x7EDF;&#x6027;&#x80FD;&#x6D4B;&#x8BD5;&#x4E0E;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;"><a name="5&#x7CFB;&#x7EDF;&#x6027;&#x80FD;&#x6D4B;&#x8BD5;&#x4E0E;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;" class="anchor-navigation-ex-anchor" href="#5&#x7CFB;&#x7EDF;&#x6027;&#x80FD;&#x6D4B;&#x8BD5;&#x4E0E;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;"><i class="fa fa-link" aria-hidden="true"></i></a>5.&#x7CFB;&#x7EDF;&#x6027;&#x80FD;&#x6D4B;&#x8BD5;&#x4E0E;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;</h3>
+<ul>
+<li><p>&#x7CFB;&#x7EDF;&#x6027;&#x80FD;&#x6D4B;&#x8BD5;&#x5C06;&#x901A;&#x8FC7;&#x5BF9;&#x7CFB;&#x7EDF;&#x7684;CPU/&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x3001;&#x663E;&#x5361;/&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x3001;&#x786C;&#x76D8;&#x6027;&#x80FD;&#x4EE5;&#x53CA;LCD&#x574F;&#x70B9;&#x8FDB;&#x884C;&#x6D4B;&#x8BD5;&#x540E;&#x8FDB;&#x884C;&#x8BC4;&#x5206;&#x3002;Windows&#x4F18;&#x5316;&#x5927;&#x5E08;&#x7684;&#x7CFB;&#x7EDF;&#x6027;&#x80FD;&#x6D4B;&#x8BD5;&#x53EF;&#x4EE5;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x826F;&#x597D;&#x7684;&#x53C2;&#x8003;&#x3002;</p>
+</li>
+<li><p><strong>CPU/&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x8BC4;&#x4F30;</strong></p>
+<ul>
+<li>&#x5355;&#x51FB;Windows&#x4F18;&#x5316;&#x5927;&#x5E08;&#x5DE6;&#x4FA7;&#x83DC;&#x5355;&#x7684;&#x201C;&#x7CFB;&#x7EDF;&#x6027;&#x80FD;&#x6D4B;&#x8BD5;&#x201D;&#xFF0C;&#x518D;&#x70B9;&#x51FB;&#x201C;CPU/&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x8BC4;&#x4F30;&#x201D;&#x53F3;&#x4FA7;&#x7684;&#x84DD;&#x8272;&#x5B57;&#x4F53;&#x8FDB;&#x884C;&#x6D4B;&#x8BD5;&#x3002;&#x5982;&#x56FE;41&#x6240;&#x793A;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/41.png" alt=""></li>
+<li>&#x4EE5;&#x4E0A;&#x9879;&#x76EE;&#x5206;&#x503C;&#x8D8A;&#x5927;&#x8D8A;&#x597D;&#x3002;&#x53E6;&#x5916;Intel Core&#x7CFB;&#x5217;CPU&#x5BF9;&#x3C0;&#x503C;&#x8BA1;&#x7B97;&#x8FDB;&#x884C;&#x4E86;&#x4F18;&#x5316;&#xFF0C;&#x6545;&#x8FD9;&#x90E8;&#x5206;Intel&#x5904;&#x7406;&#x5668;&#x3C0;&#x503C;&#x8BA1;&#x7B97;&#x5F97;&#x5206;&#x4F1A;&#x8F83;&#x540C;&#x7EA7;&#x522B;AMD&#x5904;&#x7406;&#x5668;&#x9AD8;&#x3002;</li>
+</ul>
+</li>
+<li>CPU/&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x8BC4;&#x4F30;&#x8FC7;&#x7A0B;&#x5982;&#x56FE;42&#x6240;&#x793A;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/42.png" alt=""></li>
+</ul>
+</li>
+<li>&#x56FE;43&#x6240;&#x793A;&#x4E3A;CPU/&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x8BC4;&#x4F30;&#x5F97;&#x5206;&#x60C5;&#x51B5;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/43.png" alt=""></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p><strong>&#x663E;&#x5361;/&#x5185;&#x5B58;&#x901F;&#x5EA6;</strong></p>
+<ul>
+<li>&#x663E;&#x5361;/&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x8BC4;&#x4F30;&#x901A;&#x8FC7;&#x6D4B;&#x8BD5;&#x663E;&#x5361;&#x7684;&#x50CF;&#x7D20;&#x626B;&#x63CF;&#x548C;&#x586B;&#x5145;&#x901F;&#x5EA6;&#xFF1B;&#x6587;&#x672C;&#x3001;&#x66F2;&#x7EBF;&#x548C;&#x7A97;&#x53E3;&#x5377;&#x52A8;&#x901F;&#x5EA6;&#xFF1B;&#x6293;&#x5C4F;&#x3001;&#x56FE;&#x7247;&#x538B;&#x7F29;/&#x89E3;&#x538B;&#x3001;&#x56FE;&#x7247;&#x8F93;&#x51FA;&#xFF1B;OpenGL&#x6027;&#x80FD;&#x6D4B;&#x8BD5;&#x4EE5;&#x53CA;Direct3D&#x6D4B;&#x8BD5;&#x6765;&#x8BC4;&#x5206;&#x3002;</li>
+<li>&#x672C;&#x9879;&#x5206;&#x503C;&#x8D8A;&#x5927;&#x8D8A;&#x597D;&#x3002;</li>
+<li>&#x9009;&#x62E9;&#x201C;&#x663E;&#x5361;/&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x8BC4;&#x4F30;&#x201D;&#xFF0C;&#x51FA;&#x73B0;&#x663E;&#x5361;/&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x8BC4;&#x4F30;&#x8FC7;&#x7A0B;&#x3002;&#x5982;&#x56FE;43&#x6240;&#x793A;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/44.png" alt=""></li>
+</ul>
+</li>
+<li>&#x663E;&#x5361;/&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x8BC4;&#x4F30;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x4F1A;&#x51FA;&#x73B0;&#x5BF9;&#x8BDD;&#x6846;&#x3002;&#x5982;&#x679C;&#x663E;&#x5361;&#x652F;&#x6301;DirectX 8&#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;Direct3D&#x786C;&#x4EF6;&#x52A0;&#x901F;&#xFF0C;&#x5355;&#x51FB;&#x201C;&#x786E;&#x5B9A;&#x201D;&#x6309;&#x94AE;&#x5373;&#x53EF;&#x3002;</li>
+<li>&#x663E;&#x5361;/&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x8BC4;&#x4F30;&#x4E2D;&#x7684;Direct3D&#x5149;&#x7167;&#x6620;&#x5C04;&#x6D4B;&#x8BD5;&#xFF0C;&#x53EF;&#x6839;&#x636E;&#x5B9E;&#x9645;&#x770B;&#x5230;&#x5C4F;&#x5E55;&#x7684;&#x60C5;&#x51B5;&#x505A;&#x51FA;&#x56DE;&#x7B54;&#xFF0C;&#x5982;&#x679C;&#x80FD;&#x770B;&#x5230;&#xFF0C;&#x5219;&#x5355;&#x51FB;&#x201C;&#x662F;&#x201D;&#xFF0C;&#x4E0D;&#x80FD;&#x5219;&#x5355;&#x51FB;&#x201C;&#x5426;&#x201D;&#x3002;&#x5982;&#x56FE;44&#x6240;&#x793A;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/45.png" alt=""></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>&#x786C;&#x76D8;&#x6027;&#x80FD;&#x8BC4;&#x4F30;</strong><ul>
+<li>&#x901A;&#x8FC7;&#x5728;&#x786C;&#x76D8;&#x4E0A;&#x521B;&#x5EFA;&#x3001;&#x5199;&#x5165;&#x3001;&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#x6765;&#x8BC4;&#x4F30;&#x786C;&#x76D8;&#x7684;&#x6027;&#x80FD;&#x3002;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x8FC7;&#x591A;&#x7684;&#x78C1;&#x76D8;&#x788E;&#x7247;&#x53EF;&#x80FD;&#x5BFC;&#x81F4;&#x672C;&#x9879;&#x6D4B;&#x8BD5;&#x7684;&#x8BC4;&#x4F30;&#x503C;&#x504F;&#x4F4E;&#xFF0C;&#x53EF;&#x901A;&#x8FC7;&#x78C1;&#x76D8;&#x788E;&#x7247;&#x6574;&#x7406;&#x6765;&#x63D0;&#x5230;&#x6027;&#x80FD;&#xFF1B;&#x75C5;&#x6BD2;&#x9632;&#x706B;&#x5899;&#x7684;&#x6587;&#x4EF6;&#x4FDD;&#x62A4;&#x53EF;&#x80FD;&#x5BFC;&#x81F4;&#x672C;&#x9879;&#x6D4B;&#x8BD5;&#x7684;&#x8BC4;&#x4F30;&#x503C;&#x504F;&#x4F4E;&#x3002;</li>
+<li>&#x672C;&#x9879;&#x5206;&#x503C;&#x8D8A;&#x5927;&#x8D8A;&#x597D;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>LCD&#x574F;&#x70B9;&#x6D4B;&#x8BD5;&#x3002;</strong><ul>
+<li>&#x901A;&#x8FC7;&#x663E;&#x793A;&#x7EAF;&#x8272;&#x7684;&#x5C4F;&#x5E55;&#xFF0C;&#x7528;&#x8089;&#x773C;&#x68C0;&#x67E5;&#x6DB2;&#x6676;&#x663E;&#x793A;&#x5668;&#x4E0A;&#x662F;&#x5426;&#x5B58;&#x5728;&#x574F;&#x70B9;&#xFF0C;&#x5305;&#x62EC;&#x9ED1;&#x8272;&#x3001;&#x7EA2;&#x8272;&#x3001;&#x7EFF;&#x8272;&#x3001;&#x84DD;&#x8272;&#x3001;&#x7D2B;&#x8272;&#x3001;&#x9752;&#x8272;&#x548C;&#x767D;&#x8272;&#x7B49;&#x7EAF;&#x8272;&#x7684;&#x5168;&#x9762;&#x68C0;&#x67E5;&#xFF0C;&#x907F;&#x514D;&#x574F;&#x70B9;&#x6216;&#x4EAE;&#x70B9;&#x88AB;&#x9057;&#x6F0F;&#x7684;&#x60C5;&#x51B5;&#x51FA;&#x73B0;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<h3 id="6&#x5C40;&#x57DF;&#x7F51;&#x6027;&#x80FD;&#x68C0;&#x6D4B;&#x4E0E;&#x7EF4;&#x4FEE;"><a name="6&#x5C40;&#x57DF;&#x7F51;&#x6027;&#x80FD;&#x68C0;&#x6D4B;&#x4E0E;&#x7EF4;&#x4FEE;" class="anchor-navigation-ex-anchor" href="#6&#x5C40;&#x57DF;&#x7F51;&#x6027;&#x80FD;&#x68C0;&#x6D4B;&#x4E0E;&#x7EF4;&#x4FEE;"><i class="fa fa-link" aria-hidden="true"></i></a>6.&#x5C40;&#x57DF;&#x7F51;&#x6027;&#x80FD;&#x68C0;&#x6D4B;&#x4E0E;&#x7EF4;&#x4FEE;</h3>
+<ul>
+<li>LanHelper&#x662F;Windows&#x5E73;&#x53F0;&#x4E0A;&#x5F3A;&#x5927;&#x7684;&#x5C40;&#x57DF;&#x7F51;&#x7BA1;&#x7406;&#x3001;&#x626B;&#x63CF;&#x3001;&#x76D1;&#x89C6;&#x5DE5;&#x5177;&#xFF0C;&#x4EE5;&#x72EC;&#x7279;&#x7684;&#x5F3A;&#x529B;&#x7F51;&#x7EDC;&#x626B;&#x63CF;&#x5F15;&#x64CE;&#x53EF;&#x4EE5;&#x626B;&#x63CF;&#x5230;&#x6240;&#x9700;&#x8981;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x5982;&#x626B;&#x63CF;&#x8BA1;&#x7B97;&#x673A;&#x540D;&#x3001;&#x5DE5;&#x4F5C;&#x7EC4;&#x540D;&#x3001;IP&#x5730;&#x5740;&#x3001;MAC&#x5730;&#x5740;&#x3001;&#x5907;&#x6CE8;&#x3001;&#x5171;&#x4EAB;&#x6587;&#x4EF6;&#x5939;&#x3001;&#x9690;&#x85CF;&#x5171;&#x4EAB;&#x3001;&#x5171;&#x4EAB;&#x6253;&#x5370;&#x673A;&#x3001;&#x5171;&#x4EAB;&#x6587;&#x4EF6;&#x5939;&#x7684;&#x5C5E;&#x6027;&#x3001;&#x5171;&#x4EAB;&#x5907;&#x6CE8;&#x3001;&#x7CFB;&#x7EDF;&#xFF08;Windows&#xFF09;&#x7248;&#x672C;&#x3001;&#x670D;&#x52A1;&#x5668;&#x7C7B;&#x578B;&#x7B49;&#xFF0C;&#x4F7F;&#x7528;&#x53EF;&#x6269;&#x5C55;&#x548C;&#x5F00;&#x653E;&#x7684;XML&#x7BA1;&#x7406;&#x626B;&#x63CF;&#x6570;&#x636E;&#xFF0C;&#x5177;&#x6709;&#x8FDC;&#x7A0B;&#x7F51;&#x7EDC;&#x5524;&#x9192;&#x3001;&#x8FDC;&#x7A0B;&#x5173;&#x673A;&#x3001;&#x8FDC;&#x7A0B;&#x91CD;&#x542F;&#x3001;&#x8FDC;&#x7A0B;&#x6267;&#x884C;&#x3001;&#x53D1;&#x9001;&#x6D88;&#x606F;&#x7B49;&#x529F;&#x80FD;&#x3002;&#x8FD0;&#x884C;&#x754C;&#x9762;&#x5982;&#x56FE;45&#x6240;&#x793A;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/46.png" alt=""></li>
+<li>&#x5C40;&#x57DF;&#x7F51;&#x7EDC;&#x6D4B;&#x8BD5;&#x5DE5;&#x5177;&#x8FD8;&#x53EF;&#x7528;QCheck&#x8F6F;&#x4EF6;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<h3 id="7cpu&#x6027;&#x80FD;&#x68C0;&#x6D4B;&#x4E0E;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;"><a name="7cpu&#x6027;&#x80FD;&#x68C0;&#x6D4B;&#x4E0E;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;" class="anchor-navigation-ex-anchor" href="#7cpu&#x6027;&#x80FD;&#x68C0;&#x6D4B;&#x4E0E;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;"><i class="fa fa-link" aria-hidden="true"></i></a>7.CPU&#x6027;&#x80FD;&#x68C0;&#x6D4B;&#x4E0E;&#x7EF4;&#x4FEE;&#x8F6F;&#x4EF6;</h3>
+<ul>
+<li>CPU-Z &#x662F;&#x4E00;&#x6B3E;&#x77E5;&#x540D;&#x5EA6;&#x5F88;&#x9AD8;&#x7684;CPU&#x68C0;&#x6D4B;&#x8F6F;&#x4EF6;&#xFF0C;&#x9664;&#x4E86;&#x4F7F;&#x7528;Intel&#x6216;AMD&#x81EA;&#x5E26;&#x7684;&#x68C0;&#x6D4B;&#x8F6F;&#x4EF6;&#x4E4B;&#x5916;&#xFF0C;CPU-Z&#x5C31;&#x662F;&#x65E5;&#x5E38;&#x4F7F;&#x7528;&#x5F97;&#x6700;&#x591A;&#x7684;CPU&#x68C0;&#x6D4B;&#x8F6F;&#x4EF6;&#x4E86;&#x3002;</li>
+<li>CPU-Z&#x652F;&#x6301;&#x7684;CPU&#x79CD;&#x7C7B;&#x76F8;&#x5F53;&#x5168;&#x9762;&#xFF0C;&#x8F6F;&#x4EF6;&#x7684;&#x542F;&#x52A8;&#x901F;&#x5EA6;&#x53CA;&#x68C0;&#x6D4B;&#x901F;&#x5EA6;&#x90FD;&#x5F88;&#x5FEB;&#x3002;&#x53E6;&#x5916;&#xFF0C;&#x5B83;&#x8FD8;&#x80FD;&#x68C0;&#x6D4B;&#x4E3B;&#x677F;&#x548C;&#x5185;&#x5B58;&#x7684;&#x76F8;&#x5173;&#x4FE1;&#x606F;&#x3002;</li>
+<li>&#x6B64;&#x5904;&#x4EE5;CPU-Z 1.32 &#x6C49;&#x5316;&#x7248;&#x4E3A;&#x4F8B;&#x8BB2;&#x89E3;&#x5176;&#x6D4B;&#x8BD5;&#x529F;&#x80FD;&#x3002;</li>
+<li>&#x53CC;&#x51FB;CPU-Z.exe&#x6267;&#x884C;&#x6587;&#x4EF6;&#xFF0C;&#x51FA;&#x73B0;&#x5982;&#x56FE;46&#x6240;&#x793A;&#x7684;&#x754C;&#x9762;&#xFF0C;&#x9009;&#x62E9;&#x201C;CPU&#x201D;&#x9009;&#x9879;&#x5361;&#xFF0C;&#x53EF;&#x4EE5;&#x68C0;&#x6D4B;&#x5904;&#x7406;&#x5668;&#x7684;&#x751F;&#x4EA7;&#x5382;&#x5BB6;&#x3001;&#x540D;&#x79F0;&#x7C7B;&#x522B;&#x3001;&#x5C01;&#x88C5;&#x6280;&#x672F;&#x548C;&#x6838;&#x5FC3;&#x9891;&#x7387;&#x7B49;&#x76F8;&#x5173;&#x4FE1;&#x606F;&#x3002;</li>
+<li>&#x4F7F;&#x7528;&#x8BE5;&#x8F6F;&#x4EF6;&#x8FD8;&#x53EF;&#x6D4B;&#x8BD5;&#x7F13;&#x5B58;&#x3001;&#x4E3B;&#x677F;&#x3001;&#x5185;&#x5B58;&#x7B49;&#xFF0C;&#x64CD;&#x4F5C;&#x975E;&#x5E38;&#x7B80;&#x5355;&#x3002;<ul>
+<li><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/47.png" alt=""></li>
+</ul>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1.电脑维修快速入门.html" class="navigation navigation-prev " aria-label="Previous page: 电脑维修快速入门">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="3.电脑维修常用硬件技术.html" class="navigation navigation-next " aria-label="Next page: 电脑维修常用硬件技术">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"电脑维修常用检修软件技术","level":"1.2.3.2","depth":3,"next":{"title":"电脑维修常用硬件技术","level":"1.2.3.3","depth":3,"path":"第一章 硬件/0.电脑维修目录/3.电脑维修常用硬件技术.md","ref":"第一章 硬件/0.电脑维修目录/3.电脑维修常用硬件技术.md","articles":[]},"previous":{"title":"电脑维修快速入门","level":"1.2.3.1","depth":3,"path":"第一章 硬件/0.电脑维修目录/1.电脑维修快速入门.md","ref":"第一章 硬件/0.电脑维修目录/1.电脑维修快速入门.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-highlight","-livereload","theme-comscore","search-plus@^0.0.11","github@^2.0.0","github-buttons@2.1.0","advanced-emoji@^0.2.1","anchors@^0.7.1","emphasize@^1.1.0","prism@^2.1.0","prism-themes@^0.0.2","splitter","expandable-chapters-small@^0.1.7","sectionx@^3.1.0","donate@^1.0.2","local-video@^1.0.1","anchor-navigation-ex@0.1.8","favicon@^0.0.2","todo@^0.1.3","toc","3-ba@^0.9.0","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"disqus":{"shortName":"gitbookuse"},"emphasize":{},"github":{"url":"https://github.com/StrvieMeet/"},"todo":{},"splitter":{},"toc":{},"donate":{"alipay":"./assets/支付宝.png","alipayText":"支付宝打赏","button":"打赏","title":"","wechat":"./assets/微信.png","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{"tag":"b"},"anchor-navigation-ex":{"isRewritePageTitle":false,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","tocLevel4Icon":"fa fa-hand-o-right"},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"theme-comscore":{},"prism-themes":{},"github-buttons":{"repo":"StrvieMeet/Python","types":["star"],"size":"small"},"3-ba":{"configuration":"auto","token":"ff100361cdce95dd4c8fb96b4009f7bc"},"expandable-chapters-small":{},"local-video":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":true,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"search-plus":{}},"theme":"default","author":"Cgq","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Python学习手册","language":"zh-hans","output.name":"gitbooks","links":{"sidebar":{"Ckk - 博客":"https://www.cnblogs.com/cgqsly/"}},"gitbook":"*","description":"Python学习手册"},"file":{"path":"第一章 硬件/0.电脑维修目录/2.电脑维修常用检修软件技术.md","mtime":"2020-08-07T05:10:34.618Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-07T12:57:05.749Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+

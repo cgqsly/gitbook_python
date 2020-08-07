@@ -1,0 +1,660 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>1.操作系统简介 · Python学习手册</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Cgq">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="2.操作系统.html" />
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    
+        <link rel="shortcut icon" href='../favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../favicon.ico' type="image/x-icon">
+    
+    
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"StrvieMeet/Python","types":["star"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://www.cnblogs.com/cgqsly/" target="_blank" class="custom-link">Ckk - 博客</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../目录 Python全栈学习路线/Python全栈学习路线.html">
+            
+                <a href="../目录 Python全栈学习路线/Python全栈学习路线.html">
+            
+                    
+                    Python全栈学习路线
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    第一章:硬件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1" data-path="1.操作系统简介.html">
+            
+                <a href="1.操作系统简介.html">
+            
+                    
+                    1.操作系统简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="2.操作系统.html">
+            
+                <a href="2.操作系统.html">
+            
+                    
+                    2.操作系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    3.电脑维修目录
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="0.电脑维修目录/1.电脑维修快速入门.html">
+            
+                <a href="0.电脑维修目录/1.电脑维修快速入门.html">
+            
+                    
+                    电脑维修快速入门
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="0.电脑维修目录/2.电脑维修常用检修软件技术.html">
+            
+                <a href="0.电脑维修目录/2.电脑维修常用检修软件技术.html">
+            
+                    
+                    电脑维修常用检修软件技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3" data-path="0.电脑维修目录/3.电脑维修常用硬件技术.html">
+            
+                <a href="0.电脑维修目录/3.电脑维修常用硬件技术.html">
+            
+                    
+                    电脑维修常用硬件技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4" data-path="0.电脑维修目录/4.操作系统维修技术.html">
+            
+                <a href="0.电脑维修目录/4.操作系统维修技术.html">
+            
+                    
+                    操作系统维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.5" data-path="0.电脑维修目录/5.注册表维修技术.html">
+            
+                <a href="0.电脑维修目录/5.注册表维修技术.html">
+            
+                    
+                    注册表维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6" data-path="0.电脑维修目录/6.电脑上网维修技术.html">
+            
+                <a href="0.电脑维修目录/6.电脑上网维修技术.html">
+            
+                    
+                    电脑上网维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.7" data-path="0.电脑维修目录/7.防黑杀毒维修技术.html">
+            
+                <a href="0.电脑维修目录/7.防黑杀毒维修技术.html">
+            
+                    
+                    防黑杀毒维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8" data-path="0.电脑维修目录/8.数据恢复与拯救技术.html">
+            
+                <a href="0.电脑维修目录/8.数据恢复与拯救技术.html">
+            
+                    
+                    数据恢复与拯救技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.9" data-path="0.电脑维修目录/9.主板维修技术.html">
+            
+                <a href="0.电脑维修目录/9.主板维修技术.html">
+            
+                    
+                    主板维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.10" data-path="0.电脑维修目录/10.BIOS维修技术.html">
+            
+                <a href="0.电脑维修目录/10.BIOS维修技术.html">
+            
+                    
+                    BIOS维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.11" data-path="0.电脑维修目录/11.CPU维修技术.html">
+            
+                <a href="0.电脑维修目录/11.CPU维修技术.html">
+            
+                    
+                    CPU维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.12" data-path="0.电脑维修目录/12.内存维修技术.html">
+            
+                <a href="0.电脑维修目录/12.内存维修技术.html">
+            
+                    
+                    内存维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.13" data-path="0.电脑维修目录/13.硬盘、光驱、刻录机维修技术.html">
+            
+                <a href="0.电脑维修目录/13.硬盘、光驱、刻录机维修技术.html">
+            
+                    
+                    硬盘、光驱、刻录机维修技术
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.13.1" data-path="0.电脑维修目录/14.显卡、声卡维修技术">
+            
+                <span>
+            
+                    
+                    显卡、声卡维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >1.操作系统简介</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><a href="#&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7B80;&#x4ECB;">&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7B80;&#x4ECB;</a></li></ul></div><a href="#&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7B80;&#x4ECB;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7B80;&#x4ECB;"><a name="&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7B80;&#x4ECB;" class="anchor-navigation-ex-anchor" href="#&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7B80;&#x4ECB;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7B80;&#x4ECB;</h1>
+<!-- toc -->
+<ul>
+<li><a href="#1.%3Cfont-color=brown%3E%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%9A%84%E4%BD%9C%E7%94%A8%E5%8F%8A%E4%B8%8E%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%92%8C%E7%A1%AC%E4%BB%B6%E7%9A%84%E5%85%B3%E7%B3%BB%3C/font%3E">1.<font color="brown">&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x4F5C;&#x7528;&#x53CA;&#x4E0E;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x548C;&#x786C;&#x4EF6;&#x7684;&#x5173;&#x7CFB;</font></a></li>
+<li><a href="#2.%3Cfont-color=brown%3E%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%AD%98%E5%82%A8%3C/font%3E">2.<font color="brown">&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x5B58;&#x50A8;</font></a></li>
+<li><a href="#3.%3Cfont-color=brown%3Ecpu%E4%B8%8E%E5%AF%84%E5%AD%98%E5%99%A8%EF%BC%8C%E5%86%85%E6%A0%B8%E6%80%81%E4%B8%8E%E7%94%A8%E6%88%B7%E6%80%81%E5%8F%8A%E5%A6%82%E4%BD%95%E8%BD%AC%E6%8D%A2%3C/font%3E">3.<font color="brown">cpu&#x4E0E;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5185;&#x6838;&#x6001;&#x4E0E;&#x7528;&#x6237;&#x6001;&#x53CA;&#x5982;&#x4F55;&#x8F6C;&#x6362;</font></a></li>
+<li><a href="#4.%3Cfont-color=brown%3E%E6%80%BB%E7%BA%BF%E4%B8%8E%E5%8D%97%E6%A1%A5%E5%92%8C%E5%8C%97%E6%A1%A5%3C/font%3E">4.<font color="brown">&#x603B;&#x7EBF;&#x4E0E;&#x5357;&#x6865;&#x548C;&#x5317;&#x6865;</font></a></li>
+<li><a href="#5.%3Cfont-color=brown%3E%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B%3C/font%3E">5.<font color="brown">&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x542F;&#x52A8;&#x6D41;&#x7A0B;</font></a></li>
+<li><a href="#6.%3Cfont-color=brown%3E%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B%3C/font%3E">6.<font color="brown">&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x542F;&#x52A8;&#x6D41;&#x7A0B;</font></a></li>
+</ul>
+<!-- tocstop -->
+<h3 id="1&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x4F5C;&#x7528;&#x53CA;&#x4E0E;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x548C;&#x786C;&#x4EF6;&#x7684;&#x5173;&#x7CFB;"><a name="1&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x4F5C;&#x7528;&#x53CA;&#x4E0E;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x548C;&#x786C;&#x4EF6;&#x7684;&#x5173;&#x7CFB;" class="anchor-navigation-ex-anchor" href="#1&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x4F5C;&#x7528;&#x53CA;&#x4E0E;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x548C;&#x786C;&#x4EF6;&#x7684;&#x5173;&#x7CFB;"><i class="fa fa-link" aria-hidden="true"></i></a>1.&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x4F5C;&#x7528;&#x53CA;&#x4E0E;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x548C;&#x786C;&#x4EF6;&#x7684;&#x5173;&#x7CFB;</h3>
+<ul>
+<li>&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x662F;&#x8F6F;&#x4EF6;&#xFF0C;&#x7528;&#x6765;&#x63A7;&#x5236;&#x786C;&#x4EF6;&#x3002;</li>
+<li>&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x53EA;&#x80FD;&#x5B89;&#x88C5;&#x5728;&#x786C;&#x76D8;&#x91CC;&#xFF0C;&#x8F6F;&#x4EF6;&#x8FD0;&#x884C;&#x5728;&#x786C;&#x4EF6;&#x4E4B;&#x4E0A;&#x3002;</li>
+<li>&#x8BA1;&#x7B97;&#x673A;&#x7531;&#x7535;&#x8111;&#x786C;&#x4EF6;&#x4E0E;&#x8F6F;&#x4EF6;&#x5171;&#x540C;&#x7EC4;&#x6210;&#xFF1A;<ul>
+<li>&#x786C;&#x4EF6;&#xFF1A;&#x4E00;&#x4E9B;&#x770B;&#x5F97;&#x89C1;&#x6478;&#x5F97;&#x7740;&#x7684;&#x673A;&#x5668;&#x7EC4;&#x4EF6;</li>
+<li>&#x8F6F;&#x4EF6;:&#x6307;&#x7684;&#x7CFB;&#x7EDF;&#x8F6F;&#x4EF6;&#x4E0E;&#x5E94;&#x7528;&#x8F6F;&#x4EF6;<ul>
+<li>&#x7CFB;&#x7EDF;&#x8F6F;&#x4EF6;&#xFF1A;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;(windows,Mac os, linux)</li>
+<li>&#x5E94;&#x7528;&#x8F6F;&#x4EF6;&#xFF1A;&#x7531;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7F16;&#x5199;(QQ,&#x6DD8;&#x5B9D;,&#x4EAC;&#x4E1C;)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>&#x5E94;&#x7528;&#x8F6F;&#x4EF6;&#x4E3B;&#x8981;&#x5E2E;&#x52A9;&#x4EBA;&#x4EEC;&#x5B8C;&#x6210;&#x5404;&#x79CD;&#x9700;&#x6C42;&#x3002;&#x5173;&#x7CFB;&#x7531;&#x4E0B;&#x5230;&#x4F9D;&#x6B21;&#x662F;&#xFF1A;&#x786C;&#x4EF6;--&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;--&#x8F6F;&#x4EF6;(&#x5E94;&#x7528;&#x7A0B;&#x5E8F;)</li>
+</ul>
+<h3 id="2&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x5B58;&#x50A8;"><a name="2&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x5B58;&#x50A8;" class="anchor-navigation-ex-anchor" href="#2&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x5B58;&#x50A8;"><i class="fa fa-link" aria-hidden="true"></i></a>2.&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x5B58;&#x50A8;</h3>
+<ul>
+<li>&#x5B58;&#x50A8;&#x5668;&#x7CFB;&#x5217;&#xFF0C;L1&#x7F13;&#x5B58;&#xFF0C;&#x5185;&#x5B58;&#xFF0C;EEOROM&#x548C;&#x95EA;&#x5B58;&#xFF0C;CMOS&#x4E0E;BIOS&#x7535;&#x6C60;&#x78C1;&#x76D8;&#x7ED3;&#x6784;&#xFF0C;&#x5E73;&#x5747;&#x5BFB;&#x9053;&#x65F6;&#x95F4;&#xFF0C;&#x5E73;&#x5747;&#x5EF6;&#x8FDF;&#x65F6;&#x95F4;&#xFF0C;&#x865A;&#x62DF;&#x5185;&#x5B58;&#x4E0E;MMU</li>
+<li>CPU--&gt;&#x5185;&#x5B58;--&gt;&#x78C1;&#x76D8;</li>
+<li>CPU&#xFF1A;&#x5BC4;&#x5B58;&#x5668;&#x7B49;&#x901A;&#x7535;&#x5B58;&#x50A8;&#xFF0C;&#x65AD;&#x7535;&#x5C0F;&#x65F6;&#xFF0C;&#x6240;&#x4EE5;&#x5B58;&#x50A8;&#x6570;&#x636E;&#x518D;&#x786C;&#x76D8;&#x3002;</li>
+<li>&#x6C38;&#x4E45;&#x4FDD;&#x5B58;&#x7684;&#x6587;&#x4EF6;&#x653E;&#x5728;&#x78C1;&#x76D8;&#x91CC;&#xFF0C;CPU&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x8BFB;&#x53D6;&#x786C;&#x76D8;&#x5185;&#x5BB9;&#xFF0C;&#x4F46;&#x662F;&#x901F;&#x5EA6;&#x592A;&#x6162;&#xFF0C;&#x6240;&#x4EE5;&#x5728;&#x4E2D;&#x95F4;&#x52A0;&#x4E86;&#x4E00;&#x4E2A;&#x5185;&#x5B58;&#xFF0C;&#x5185;&#x5B58;&#x4E2D;&#x95F4;&#x52A0;&#x544A;&#x8BC9;&#x7F13;&#x5B58;&#xFF0C;&#x901F;&#x5EA6;&#x7EE7;&#x7EED;&#x589E;&#x52A0;&#xFF0C;&#x4F46;&#x662F;&#x901F;&#x5EA6;&#x592A;&#x6162;&#xFF0C;&#x53EA;&#x5B58;&#x50A8;&#x5E38;&#x7528;&#x6570;&#x636E;&#x3002;&#x4E2D;&#x95F4;&#x518D;&#x52A0;&#x4E00;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x901F;&#x5EA6;&#x4F18;&#x60E0;&#x589E;&#x52A0;&#x3002;</li>
+<li>RAM&#x503C;&#x5F97;&#x662F;&#x5185;&#x5B58;&#x5B58;&#x50A8;&#x5668;&#xFF0C;ROM&#x662F;&#x53EA;&#x8BFB;&#x5B58;&#x50A8;&#x5668;&#xFF0C;&#x51FA;&#x5382;&#x81EA;&#x5E26;&#x7684;&#x7A0B;&#x5E8F;&#x53EF;&#x4EE5;&#x5199;&#x5728;ROM&#x91CC;&#xFF0C;&#x8FD8;&#x6709;&#x4E2D;&#x53EF;&#x64E6;&#x9664;&#x7684;&#x5B58;&#x50A8;&#x8BBE;&#x5907;</li>
+<li>CMOS&#xFF0C;&#x4ED6;&#x662F;&#x6613;&#x5931;&#x6027;&#x7684;&#xFF0C;&#x8BB8;&#x591A;&#x8BA1;&#x7B97;&#x673A;&#x5229;&#x7528;CMOS&#x6765;&#x4FDD;&#x6301;&#x5F53;&#x524D;&#x7684;&#x65F6;&#x95F4;&#xFF0C;CMOS&#x7535;&#x6C60;&#x6709;&#x4E00;&#x5757;&#x7535;&#x6C60;&#x9A71;&#x52A8;&#xFF0C;&#x5373;&#x4F7F;&#x6CA1;&#x6709;&#x52A0;&#x7535;&#x4E5F;&#x53EF;&#x4EE5;&#x8FD0;&#x884C;&#x597D;&#x4E45;&#xFF1B;&#x9664;&#x6B64;&#x4E4B;&#x5916;&#xFF0C;CMOS&#x8FD8;&#x53EF;&#x4EE5;&#x4FDD;&#x5B58;&#x914D;&#x7F6E;&#x7684;&#x53C2;&#x6570;&#xFF0C;&#x6BD4;&#x5982;&#x54EA;&#x4E00;&#x4E2A;&#x662F;&#x542F;&#x52A8;&#x76D8;&#x7B49;&#x3002;BIOS&#x5B58;&#x50A8;&#x5728;ROM&#x91CC;&#x3002;</li>
+</ul>
+<h3 id="3cpu&#x4E0E;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5185;&#x6838;&#x6001;&#x4E0E;&#x7528;&#x6237;&#x6001;&#x53CA;&#x5982;&#x4F55;&#x8F6C;&#x6362;"><a name="3cpu&#x4E0E;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5185;&#x6838;&#x6001;&#x4E0E;&#x7528;&#x6237;&#x6001;&#x53CA;&#x5982;&#x4F55;&#x8F6C;&#x6362;" class="anchor-navigation-ex-anchor" href="#3cpu&#x4E0E;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5185;&#x6838;&#x6001;&#x4E0E;&#x7528;&#x6237;&#x6001;&#x53CA;&#x5982;&#x4F55;&#x8F6C;&#x6362;"><i class="fa fa-link" aria-hidden="true"></i></a>3.cpu&#x4E0E;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5185;&#x6838;&#x6001;&#x4E0E;&#x7528;&#x6237;&#x6001;&#x53CA;&#x5982;&#x4F55;&#x8F6C;&#x6362;</h3>
+<ul>
+<li>&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x5927;&#x8111;&#x662F;CPU&#xFF0C;&#x4ED6;&#x4ECE;&#x5185;&#x5B58;&#x4E2D;&#x53D6;&#x6307;&#x4EE4;--&gt;&#x89E3;&#x7801;&gt;&#x6267;&#x884C; &#x76F4;&#x5230;&#x6574;&#x4E2A;&#x7A0B;&#x5E8F;&#x88AB;&#x6267;&#x884C;&#x5B8C;&#x6210;&#x3002;</li>
+<li>&#x8BBF;&#x95EE;&#x5185;&#x5B58;&#x5F97;&#x5230;&#x7684;&#x6307;&#x4EE4;&#x6BD4;&#x8BBF;&#x95EE;CPU&#x76F4;&#x63A5;&#x6267;&#x884C;&#x7684;&#x6267;&#x884C;&#x6240;&#x82B1;&#x8D39;&#x7684;&#x65F6;&#x95F4;&#x8981;&#x591A;&#xFF0C;&#x6240;&#x4EE5;CPU&#x5185;&#x90E8;&#x90FD;&#x4F1A;&#x5B58;&#x4E00;&#x4E9B;&#x5173;&#x952E;&#x53D8;&#x91CF;&#x548C;&#x4E34;&#x65F6;&#x6570;&#x636E;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x53EF;&#x4EE5;&#x8BF4;&#x5BC4;&#x5B58;&#x5668;&#x5B58;&#x5728;CPU&#x4E4B;&#x4E0A;&#xFF1B;</li>
+<li>&#x5F53;&#x901A;&#x8FC7;&#x89C6;&#x9891;&#x64AD;&#x653E;&#x8F6F;&#x4EF6;&#x64AD;&#x653E;&#x89C6;&#x9891;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4ECE;&#x7528;&#x6237;&#x6001;&#x8F6C;&#x5316;&#x6210;&#x5185;&#x6838;&#x6001;(&#x5F53;&#x4F60;&#x70B9;&#x51FB;&#x4F18;&#x9177;&#x64AD;&#x653E;&#x5668;&#x7684;&#x65F6;&#x5019;&#x5904;&#x4E8E;&#x7528;&#x6237;&#x72B6;&#x6001;&#xFF0C;&#x7136;&#x540E;&#x4F18;&#x9177;&#x4F1A;&#x5728;&#x672C;&#x5730;&#x786C;&#x76D8;&#x4E2D;&#x5BFB;&#x627E;&#x64AD;&#x653E;&#x8D44;&#x6E90;&#xFF0C;&#x8FD9;&#x65F6;&#x5019;&#x5C31;&#x8F6C;&#x53D8;&#x6210;&#x5185;&#x6838;&#x6001;)</li>
+</ul>
+<h3 id="4&#x603B;&#x7EBF;&#x4E0E;&#x5357;&#x6865;&#x548C;&#x5317;&#x6865;"><a name="4&#x603B;&#x7EBF;&#x4E0E;&#x5357;&#x6865;&#x548C;&#x5317;&#x6865;" class="anchor-navigation-ex-anchor" href="#4&#x603B;&#x7EBF;&#x4E0E;&#x5357;&#x6865;&#x548C;&#x5317;&#x6865;"><i class="fa fa-link" aria-hidden="true"></i></a>4.&#x603B;&#x7EBF;&#x4E0E;&#x5357;&#x6865;&#x548C;&#x5317;&#x6865;</h3>
+<ul>
+<li>&#x5357;&#x6865;&#x5373;ISA&#x6865;&#xFF1A;&#x8FDE;&#x63A5;&#x6162;&#x901F;&#x8BBE;&#x5907;<ul>
+<li>&#x8C03;&#x5236;&#x89E3;&#x8C03;&#x5668;&#x3001;&#x58F0;&#x5361;&#x3001;&#x6253;&#x5370;&#x673A;&#x3001;&#x53EF;&#x7528;ISA&#x69FD;</li>
+</ul>
+</li>
+<li>&#x5317;&#x6865;&#x5373;PCI&#x6865;&#xFF1A;&#x8FDE;&#x63A5;&#x9AD8;&#x901F;&#x8BBE;&#x5907;<ul>
+<li>&#x4E8C;&#x7EA7;&#x7F13;&#x5B58;&#x3001;CPU&#x3001;&#x4E3B;&#x50A8;&#x5B58;&#x5668;&#x3001;USB&#x8BBE;&#x5907;&#x3001;&#x56FE;&#x5F62;&#x9002;&#x914D;&#x5668;&#x3001;&#x53EF;&#x7528;PCI&#x69FD;</li>
+</ul>
+</li>
+<li>&#x603B;&#x7EBF;&#x8D1F;&#x8D23;&#x628A;&#x4E00;&#x4EF6;&#x4EF6;&#x786C;&#x4EF6;&#x8FDE;&#x63A5;&#x5728;&#x4E00;&#x8D77;</li>
+</ul>
+<h3 id="5&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x542F;&#x52A8;&#x6D41;&#x7A0B;"><a name="5&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x542F;&#x52A8;&#x6D41;&#x7A0B;" class="anchor-navigation-ex-anchor" href="#5&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x542F;&#x52A8;&#x6D41;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a>5.&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x542F;&#x52A8;&#x6D41;&#x7A0B;</h3>
+<ul>
+<li><p>&#x8BA1;&#x7B97;&#x673A;&#x52A0;&#x7535;&#xFF0C;&#x5373;&#x5F00;&#x673A;</p>
+</li>
+<li><p>BIOS&#x5F00;&#x59CB;&#x8FD0;&#x884C;&#xFF0C;&#x68C0;&#x6D4B;&#x786C;&#x4EF6;&#xFF1A;CPU&#x3001;&#x5185;&#x5B58;&#x3001;&#x786C;&#x76D8;&#x7B49;&#x3002;</p>
+</li>
+<li><p>BIOS&#x8BFB;&#x53D6;CMOS&#x5B58;&#x50A8;&#x5668;&#x4E2D;&#x7684;&#x53C2;&#x6570;&#xFF0C;&#x9009;&#x62E9;&#x542F;&#x52A8;&#x8BBE;&#x5907;</p>
+</li>
+<li><p>&#x4ECE;&#x542F;&#x52A8;&#x8BBE;&#x5907;&#x4E0A;&#x8BFB;&#x53D6;&#x7B2C;&#x4E00;&#x6247;&#x533A;&#x7684;&#x5185;&#x5BB9;(MBR&#x4E3B;&#x5F15;&#x5BFC;&#x8BB0;&#x5F55;512&#x5B57;&#x8282;&#xFF0C;&#x524D;446&#x4F4D;&#x5F15;&#x5BFC;&#x4FE1;&#x606F;&#xFF0C;&#x540E;64&#x4F4D;&#x4E3A;&#x5206;&#x533A;&#x4FE1;&#x606F;&#xFF0C;&#x6700;&#x540E;&#x4E24;&#x4E2A;&#x4E3A;&#x6807;&#x5FD7;&#x4F4D;)</p>
+</li>
+<li><p>&#x6839;&#x636E;&#x5206;&#x533A;&#x4FE1;&#x606F;&#x8BFB;&#x5165;BootLoader&#x542F;&#x52A8;&#x88C5;&#x8F7D;&#x6A21;&#x5757;&#xFF0C;&#x542F;&#x52A8;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x3002;</p>
+</li>
+<li><p>&#x7136;&#x540E;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x8BE2;&#x95EE;BIOS&#xFF0C;&#x4EE5;&#x83B7;&#x5F97;&#x914D;&#x7F6E;&#x4FE1;&#x606F;&#x3002;&#x5BF9;&#x4E8E;&#x6BCF;&#x79CD;&#x8BBE;&#x5907;&#xFF0C;&#x7CFB;&#x7EDF;&#x4F1A;&#x68C0;&#x67E5;&#x5176;&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x662F;&#x5426;&#x5B58;&#x5728;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#xFF0C;&#x7CFB;&#x7EDF;&#x5219;&#x4F1A;&#x8981;&#x6C42;&#x7528;&#x6237;&#x5B89;&#x88C5;&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#xFF0C;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x5C31;&#x5C06;&#x4ED6;&#x4EEC;&#x8C03;&#x5165;&#x5185;&#x6838;&#x3002;&#x7136;&#x540E;&#x51FA;&#x793A;&#x6709;&#x5173;&#x7684;&#x8868;&#x683C;&#xFF0C;&#x521B;&#x5EFA;&#x9700;&#x8981;&#x7684;&#x8FDB;&#x7A0B;&#xFF0C;&#x5E76;&#x5728;&#x6BCF;&#x4E2A;&#x7EC8;&#x7AEF;&#x4E0A;&#x542F;&#x52A8;&#x767B;&#x5F55;&#x7A0B;&#x5E8F;&#x6216;GUI&#xFF1B;</p>
+</li>
+</ul>
+<h3 id="6&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x542F;&#x52A8;&#x6D41;&#x7A0B;"><a name="6&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x542F;&#x52A8;&#x6D41;&#x7A0B;" class="anchor-navigation-ex-anchor" href="#6&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x542F;&#x52A8;&#x6D41;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a>6.&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x542F;&#x52A8;&#x6D41;&#x7A0B;</h3>
+<ul>
+<li>&#x7531;&#x4EBA;&#x4E3A;&#x542F;&#x52A8;&#x7A0B;&#x5E8F;&#xFF0C;&#x7A0B;&#x5E8F;&#x627E;&#x5230;&#x786C;&#x76D8;&#x4E2D;&#x6240;&#x9700;&#x8981;&#x76F8;&#x5E94;&#x7684;&#x6587;&#x4EF6;&#x751F;&#x6210;&#x8FDB;&#x7A0B;&#x5728;&#x5B58;&#x50A8;&#x5185;&#x5B58;&#x4E2D;&#xFF0C;&#x7A0B;&#x5E8F;&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x6307;&#x4EE4;&#x7531;CPU&#x5B8C;&#x6210;&#x3002;</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: 第一章:硬件">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="2.操作系统.html" class="navigation navigation-next " aria-label="Next page: 2.操作系统">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"1.操作系统简介","level":"1.2.1","depth":2,"next":{"title":"2.操作系统","level":"1.2.2","depth":2,"path":"第一章 硬件/2.操作系统.md","ref":"第一章 硬件/2.操作系统.md","articles":[]},"previous":{"title":"第一章:硬件","level":"1.2","depth":1,"path":"README.md","ref":"README.md","articles":[{"title":"1.操作系统简介","level":"1.2.1","depth":2,"path":"第一章 硬件/1.操作系统简介.md","ref":"第一章 硬件/1.操作系统简介.md","articles":[]},{"title":"2.操作系统","level":"1.2.2","depth":2,"path":"第一章 硬件/2.操作系统.md","ref":"第一章 硬件/2.操作系统.md","articles":[]},{"title":"3.电脑维修目录","level":"1.2.3","depth":2,"path":"README.md","ref":"README.md","articles":[{"title":"电脑维修快速入门","level":"1.2.3.1","depth":3,"path":"第一章 硬件/0.电脑维修目录/1.电脑维修快速入门.md","ref":"第一章 硬件/0.电脑维修目录/1.电脑维修快速入门.md","articles":[]},{"title":"电脑维修常用检修软件技术","level":"1.2.3.2","depth":3,"path":"第一章 硬件/0.电脑维修目录/2.电脑维修常用检修软件技术.md","ref":"第一章 硬件/0.电脑维修目录/2.电脑维修常用检修软件技术.md","articles":[]},{"title":"电脑维修常用硬件技术","level":"1.2.3.3","depth":3,"path":"第一章 硬件/0.电脑维修目录/3.电脑维修常用硬件技术.md","ref":"第一章 硬件/0.电脑维修目录/3.电脑维修常用硬件技术.md","articles":[]},{"title":"操作系统维修技术","level":"1.2.3.4","depth":3,"path":"第一章 硬件/0.电脑维修目录/4.操作系统维修技术.md","ref":"第一章 硬件/0.电脑维修目录/4.操作系统维修技术.md","articles":[]},{"title":"注册表维修技术","level":"1.2.3.5","depth":3,"path":"第一章 硬件/0.电脑维修目录/5.注册表维修技术.md","ref":"第一章 硬件/0.电脑维修目录/5.注册表维修技术.md","articles":[]},{"title":"电脑上网维修技术","level":"1.2.3.6","depth":3,"path":"第一章 硬件/0.电脑维修目录/6.电脑上网维修技术.md","ref":"第一章 硬件/0.电脑维修目录/6.电脑上网维修技术.md","articles":[]},{"title":"防黑杀毒维修技术","level":"1.2.3.7","depth":3,"path":"第一章 硬件/0.电脑维修目录/7.防黑杀毒维修技术.md","ref":"第一章 硬件/0.电脑维修目录/7.防黑杀毒维修技术.md","articles":[]},{"title":"数据恢复与拯救技术","level":"1.2.3.8","depth":3,"path":"第一章 硬件/0.电脑维修目录/8.数据恢复与拯救技术.md","ref":"第一章 硬件/0.电脑维修目录/8.数据恢复与拯救技术.md","articles":[]},{"title":"主板维修技术","level":"1.2.3.9","depth":3,"path":"第一章 硬件/0.电脑维修目录/9.主板维修技术.md","ref":"第一章 硬件/0.电脑维修目录/9.主板维修技术.md","articles":[]},{"title":"BIOS维修技术","level":"1.2.3.10","depth":3,"path":"第一章 硬件/0.电脑维修目录/10.BIOS维修技术.md","ref":"第一章 硬件/0.电脑维修目录/10.BIOS维修技术.md","articles":[]},{"title":"CPU维修技术","level":"1.2.3.11","depth":3,"path":"第一章 硬件/0.电脑维修目录/11.CPU维修技术.md","ref":"第一章 硬件/0.电脑维修目录/11.CPU维修技术.md","articles":[]},{"title":"内存维修技术","level":"1.2.3.12","depth":3,"path":"第一章 硬件/0.电脑维修目录/12.内存维修技术.md","ref":"第一章 硬件/0.电脑维修目录/12.内存维修技术.md","articles":[]},{"title":"硬盘、光驱、刻录机维修技术","level":"1.2.3.13","depth":3,"path":"第一章 硬件/0.电脑维修目录/13.硬盘、光驱、刻录机维修技术.md","ref":"第一章 硬件/0.电脑维修目录/13.硬盘、光驱、刻录机维修技术.md","articles":[{"title":"显卡、声卡维修技术","level":"1.2.3.13.1","depth":4,"path":"第一章 硬件/0.电脑维修目录/14.显卡、声卡维修技术","ref":"第一章 硬件/0.电脑维修目录/14.显卡、声卡维修技术","articles":[]}]}]}]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-highlight","-livereload","theme-comscore","search-plus@^0.0.11","github@^2.0.0","github-buttons@2.1.0","advanced-emoji@^0.2.1","anchors@^0.7.1","emphasize@^1.1.0","prism@^2.1.0","prism-themes@^0.0.2","splitter","expandable-chapters-small@^0.1.7","sectionx@^3.1.0","donate@^1.0.2","local-video@^1.0.1","anchor-navigation-ex@0.1.8","favicon@^0.0.2","todo@^0.1.3","toc","3-ba@^0.9.0","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"disqus":{"shortName":"gitbookuse"},"emphasize":{},"github":{"url":"https://github.com/StrvieMeet/"},"todo":{},"splitter":{},"toc":{},"donate":{"alipay":"./assets/支付宝.png","alipayText":"支付宝打赏","button":"打赏","title":"","wechat":"./assets/微信.png","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{"tag":"b"},"anchor-navigation-ex":{"isRewritePageTitle":false,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","tocLevel4Icon":"fa fa-hand-o-right"},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"theme-comscore":{},"prism-themes":{},"github-buttons":{"repo":"StrvieMeet/Python","types":["star"],"size":"small"},"3-ba":{"configuration":"auto","token":"ff100361cdce95dd4c8fb96b4009f7bc"},"expandable-chapters-small":{},"local-video":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":true,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"search-plus":{}},"theme":"default","author":"Cgq","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Python学习手册","language":"zh-hans","output.name":"gitbooks","links":{"sidebar":{"Ckk - 博客":"https://www.cnblogs.com/cgqsly/"}},"gitbook":"*","description":"Python学习手册"},"file":{"path":"第一章 硬件/1.操作系统简介.md","mtime":"2020-08-07T12:33:09.623Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-07T12:57:05.749Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+

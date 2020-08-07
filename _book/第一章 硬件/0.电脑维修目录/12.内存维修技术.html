@@ -1,0 +1,709 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>内存维修技术 · Python学习手册</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Cgq">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="13.硬盘、光驱、刻录机维修技术.html" />
+    
+    
+    <link rel="prev" href="11.CPU维修技术.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../../favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../favicon.ico' type="image/x-icon">
+    
+    
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"StrvieMeet/Python","types":["star"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://www.cnblogs.com/cgqsly/" target="_blank" class="custom-link">Ckk - 博客</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../目录 Python全栈学习路线/Python全栈学习路线.html">
+            
+                <a href="../../目录 Python全栈学习路线/Python全栈学习路线.html">
+            
+                    
+                    Python全栈学习路线
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    第一章:硬件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../1.操作系统简介.html">
+            
+                <a href="../1.操作系统简介.html">
+            
+                    
+                    1.操作系统简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../2.操作系统.html">
+            
+                <a href="../2.操作系统.html">
+            
+                    
+                    2.操作系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    3.电脑维修目录
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="1.电脑维修快速入门.html">
+            
+                <a href="1.电脑维修快速入门.html">
+            
+                    
+                    电脑维修快速入门
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="2.电脑维修常用检修软件技术.html">
+            
+                <a href="2.电脑维修常用检修软件技术.html">
+            
+                    
+                    电脑维修常用检修软件技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3" data-path="3.电脑维修常用硬件技术.html">
+            
+                <a href="3.电脑维修常用硬件技术.html">
+            
+                    
+                    电脑维修常用硬件技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4" data-path="4.操作系统维修技术.html">
+            
+                <a href="4.操作系统维修技术.html">
+            
+                    
+                    操作系统维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.5" data-path="5.注册表维修技术.html">
+            
+                <a href="5.注册表维修技术.html">
+            
+                    
+                    注册表维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6" data-path="6.电脑上网维修技术.html">
+            
+                <a href="6.电脑上网维修技术.html">
+            
+                    
+                    电脑上网维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.7" data-path="7.防黑杀毒维修技术.html">
+            
+                <a href="7.防黑杀毒维修技术.html">
+            
+                    
+                    防黑杀毒维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.8" data-path="8.数据恢复与拯救技术.html">
+            
+                <a href="8.数据恢复与拯救技术.html">
+            
+                    
+                    数据恢复与拯救技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.9" data-path="9.主板维修技术.html">
+            
+                <a href="9.主板维修技术.html">
+            
+                    
+                    主板维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.10" data-path="10.BIOS维修技术.html">
+            
+                <a href="10.BIOS维修技术.html">
+            
+                    
+                    BIOS维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.11" data-path="11.CPU维修技术.html">
+            
+                <a href="11.CPU维修技术.html">
+            
+                    
+                    CPU维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3.12" data-path="12.内存维修技术.html">
+            
+                <a href="12.内存维修技术.html">
+            
+                    
+                    内存维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.13" data-path="13.硬盘、光驱、刻录机维修技术.html">
+            
+                <a href="13.硬盘、光驱、刻录机维修技术.html">
+            
+                    
+                    硬盘、光驱、刻录机维修技术
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.13.1" data-path="14.显卡、声卡维修技术">
+            
+                <span>
+            
+                    
+                    显卡、声卡维修技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >内存维修技术</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><a href="#&#x5185;&#x5B58;&#x7EF4;&#x4FEE;&#x6280;&#x672F;">&#x5185;&#x5B58;&#x7EF4;&#x4FEE;&#x6280;&#x672F;</a></li></ul></div><a href="#&#x5185;&#x5B58;&#x7EF4;&#x4FEE;&#x6280;&#x672F;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x5185;&#x5B58;&#x7EF4;&#x4FEE;&#x6280;&#x672F;"><a name="&#x5185;&#x5B58;&#x7EF4;&#x4FEE;&#x6280;&#x672F;" class="anchor-navigation-ex-anchor" href="#&#x5185;&#x5B58;&#x7EF4;&#x4FEE;&#x6280;&#x672F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5185;&#x5B58;&#x7EF4;&#x4FEE;&#x6280;&#x672F;</h1>
+<!-- toc -->
+<ul>
+<li><a href="#1.%3Cfont-color=brown%3E%E5%BC%80%E6%9C%BA%E5%90%8E%E8%BF%9E%E7%BB%AD%E6%8A%A5%E8%AD%A6%3C/font%3E">1.<font color="brown">&#x5F00;&#x673A;&#x540E;&#x8FDE;&#x7EED;&#x62A5;&#x8B66;</font></a></li>
+<li><a href="#2.%3Cfont-color=brown%3E%E5%86%85%E5%AD%98%E5%85%BC%E5%AE%B9%E6%80%A7%E6%95%85%E9%9A%9C%3C/font%3E">2.<font color="brown">&#x5185;&#x5B58;&#x517C;&#x5BB9;&#x6027;&#x6545;&#x969C;</font></a></li>
+<li><a href="#3.%3Cfont-color=brown%3E%E5%86%85%E5%AD%98%E9%80%9F%E5%BA%A6%E4%B8%8D%E5%90%8C%E6%95%85%E9%9A%9C%3C/font%3E">3.<font color="brown">&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x4E0D;&#x540C;&#x6545;&#x969C;</font></a></li>
+<li><a href="#4.%3Cfont-color=brown%3E%E5%86%85%E5%AD%98%E6%8E%A5%E8%A7%A6%E4%B8%8D%E8%89%AF%E6%95%85%E9%9A%9C%3C/font%3E">4.<font color="brown">&#x5185;&#x5B58;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#x6545;&#x969C;</font></a></li>
+<li><a href="#5.%3Cfont-color=brown%3E%E5%86%85%E5%AD%98%E8%B4%A8%E9%87%8F%E4%B8%8D%E4%BD%B3%E6%95%85%E9%9A%9C%3C/font%3E">5.<font color="brown">&#x5185;&#x5B58;&#x8D28;&#x91CF;&#x4E0D;&#x4F73;&#x6545;&#x969C;</font></a></li>
+<li><a href="#6.%3Cfont-color=brown%3E%E2%80%9C%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C%E2%80%9D%E6%95%85%E9%9A%9C%3C/font%3E">6.<font color="brown">&#x201C;&#x975E;&#x6CD5;&#x64CD;&#x4F5C;&#x201D;&#x6545;&#x969C;</font></a></li>
+<li><a href="#7.%3Cfont-color=brown%3E%E5%86%85%E5%AD%98%E9%87%91%E6%89%8B%E6%8C%87%E6%B0%A7%E5%8C%96%E6%95%85%E9%9A%9C%3C/font%3E">7.<font color="brown">&#x5185;&#x5B58;&#x91D1;&#x624B;&#x6307;&#x6C27;&#x5316;&#x6545;&#x969C;</font></a></li>
+</ul>
+<!-- tocstop -->
+<p>&#x5185;&#x5B58;&#x662F;&#x7528;&#x6765;&#x5B58;&#x653E;&#x7535;&#x8111;&#x8FD0;&#x884C;&#x65F6;&#x6240;&#x9700;&#x7684;&#x7A0B;&#x5E8F;&#x548C;&#x6570;&#x636E;&#x7684;&#x534A;&#x5BFC;&#x4F53;&#x82AF;&#x7247;&#x3002;&#x4F5C;&#x4E3A;&#x7535;&#x8111;&#x7684;&#x5FC5;&#x8981;&#x7EC4;&#x6210;&#x90E8;&#x5206;&#x4E4B;&#x4E00;&#xFF0C;&#x5176;&#x5BB9;&#x91CF;&#x3001;&#x901F;&#x5EA6;&#x4E0E;&#x6027;&#x80FD;&#x51B3;&#x5B9A;&#x4E86;&#x7535;&#x8111;&#x7684;&#x6574;&#x4F53;&#x6027;&#x80FD;&#xFF0C;&#x53EF;&#x89C1;&#x5176;&#x5730;&#x4F4D;&#x7684;&#x91CD;&#x8981;&#x6027;&#x3002;</p>
+<h3 id="1&#x5F00;&#x673A;&#x540E;&#x8FDE;&#x7EED;&#x62A5;&#x8B66;"><a name="1&#x5F00;&#x673A;&#x540E;&#x8FDE;&#x7EED;&#x62A5;&#x8B66;" class="anchor-navigation-ex-anchor" href="#1&#x5F00;&#x673A;&#x540E;&#x8FDE;&#x7EED;&#x62A5;&#x8B66;"><i class="fa fa-link" aria-hidden="true"></i></a>1.&#x5F00;&#x673A;&#x540E;&#x8FDE;&#x7EED;&#x62A5;&#x8B66;</h3>
+<ul>
+<li>&#x6545;&#x969C;&#x73B0;&#x8C61;&#xFF1A;&#x7535;&#x8111;&#x542F;&#x52A8;&#x540E;&#xFF0C;&#x4E0D;&#x505C;&#x5730;&#x54CD;&#x8D77;&#x8B66;&#x62A5;&#x58F0;&#x3002;</li>
+<li>&#x539F;&#x56E0;&#x5206;&#x6790;&#xFF1A;&#x7535;&#x8111;&#x542F;&#x52A8;&#x53D1;&#x51FA;&#x8B66;&#x62A5;&#x58F0;&#x7684;&#x539F;&#x56E0;&#x4E3A;&#x5185;&#x5B58;&#x6761;&#x635F;&#x574F;&#x3001;&#x5185;&#x5B58;&#x5C40;&#x90E8;&#x77ED;&#x8DEF;&#x6216;&#x5185;&#x5B58;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#x3002;</li>
+<li>&#x7EF4;&#x4FEE;&#x65B9;&#x6CD5;&#xFF1A;&#x8BE5;&#x6545;&#x969C;&#x7684;&#x7EF4;&#x4FEE;&#x9996;&#x5148;&#x8981;&#x68C0;&#x6D4B;&#x662F;&#x5426;&#x4E3A;&#x5185;&#x5B58;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#xFF0C;&#x786E;&#x5B9A;&#x4E0D;&#x662F;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#x540E;&#x518D;&#x6392;&#x67E5;&#x5176;&#x4ED6;&#x6545;&#x969C;&#x539F;&#x56E0;&#xFF0C;&#x5177;&#x4F53;&#x6B65;&#x9AA4;&#x5982;&#x4E0B;&#x3002;<ul>
+<li>&#x9996;&#x5148;&#x68C0;&#x6D4B;&#x8BE5;&#x6545;&#x969C;&#x662F;&#x5426;&#x56E0;&#x5185;&#x5B58;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#x6240;&#x81F4;&#x3002;&#x7528;&#x624B;&#x6309;&#x51E0;&#x4E0B;&#x5185;&#x5B58;&#x6761;&#xFF0C;&#x7136;&#x540E;&#x518D;&#x542F;&#x52A8;&#x7535;&#x8111;&#x770B;&#x6545;&#x969C;&#x662F;&#x5426;&#x6D88;&#x5931;&#x3002;</li>
+<li>&#x5982;&#x679C;&#x6545;&#x969C;&#x4F9D;&#x65E7;&#x5B58;&#x5728;&#xFF0C;&#x63A5;&#x7740;&#x5378;&#x4E0B;&#x5185;&#x5B58;&#x6761;&#xFF0C;&#x5C06;&#x5185;&#x5B58;&#x6761;&#x8868;&#x9762;&#x7070;&#x5C18;&#x6E05;&#x6D01;&#x5E72;&#x51C0;&#x3002;</li>
+<li>&#x7136;&#x540E;&#x7528;&#x5C0F;&#x53F7;&#x7EC6;&#x5237;&#x5C06;&#x5185;&#x5B58;&#x63D2;&#x69FD;&#x5185;&#x7684;&#x7070;&#x5C18;&#x6E05;&#x626B;&#x5E72;&#x51C0;&#xFF1B;&#x518D;&#x5C06;&#x5185;&#x5B58;&#x6761;&#x91CD;&#x65B0;&#x5B89;&#x88C5;&#x597D;&#x3002;&#x542F;&#x52A8;&#x7535;&#x8111;&#xFF0C;&#x8B66;&#x62A5;&#x58F0;&#x6D88;&#x5931;&#xFF0C;&#x6545;&#x969C;&#x6392;&#x9664;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<h3 id="2&#x5185;&#x5B58;&#x517C;&#x5BB9;&#x6027;&#x6545;&#x969C;"><a name="2&#x5185;&#x5B58;&#x517C;&#x5BB9;&#x6027;&#x6545;&#x969C;" class="anchor-navigation-ex-anchor" href="#2&#x5185;&#x5B58;&#x517C;&#x5BB9;&#x6027;&#x6545;&#x969C;"><i class="fa fa-link" aria-hidden="true"></i></a>2.&#x5185;&#x5B58;&#x517C;&#x5BB9;&#x6027;&#x6545;&#x969C;</h3>
+<ul>
+<li>&#x5982;&#x679C;&#x5185;&#x5B58;&#x6761;&#x4E0D;&#x80FD;&#x76F8;&#x4E92;&#x517C;&#x5BB9;&#xFF0C;&#x5C06;&#x4F1A;&#x5F15;&#x53D1;&#x5185;&#x5B58;&#x517C;&#x5BB9;&#x6027;&#x6545;&#x969C;&#xFF0C;&#x8BE5;&#x6545;&#x969C;&#x6709;&#x4E24;&#x79CD;&#x8868;&#x73B0;&#xFF1A;&#x4E00;&#x662F;&#x4E0D;&#x80FD;&#x5B8C;&#x5168;&#x663E;&#x793A;&#x5185;&#x5B58;&#x603B;&#x5BB9;&#x91CF;&#xFF0C;&#x4F8B;&#x5982;&#x4E00;&#x53F0;&#x7535;&#x8111;&#x5B89;&#x88C5;&#x4E86;&#x4E24;&#x6761;256MB&#x5185;&#x5B58;&#xFF0C;&#x4F46;&#x542F;&#x52A8;&#x7535;&#x8111;&#x540E;&#xFF0C;&#x6709;&#x65F6;&#x5019;&#x5185;&#x5B58;&#x663E;&#x793A;&#x4E3A;256MB&#xFF0C;&#x6709;&#x65F6;&#x5019;&#x663E;&#x793A;&#x4E3A;512MB&#xFF1B;&#x4E8C;&#x662F;&#x53EA;&#x80FD;&#x8BC6;&#x522B;&#x51FA;&#x5355;&#x6761;&#x5185;&#x5B58;&#x7684;&#x5BB9;&#x91CF;&#xFF0C;&#x5982;&#x7535;&#x8111;&#x539F;&#x5B89;&#x88C5;512MB&#x5185;&#x5B58;&#x80FD;&#x6B63;&#x5E38;&#x4F7F;&#x7528;&#xFF0C;&#x4F46;&#x662F;&#x52A0;&#x4E86;256MB&#x5185;&#x5B58;&#x6761;&#x540E;&#xFF0C;&#x5185;&#x5B58;&#x4ECD;&#x663E;&#x793A;&#x4E3A;256MB&#x3002;</li>
+<li>&#x7EF4;&#x4FEE;&#x65B9;&#x6CD5;&#xFF1A;<ul>
+<li>&#x6253;&#x5F00;&#x7535;&#x8111;&#x4E3B;&#x673A;&#x7BB1;&#xFF0C;&#x5378;&#x4E0B;&#x6240;&#x6709;&#x5185;&#x5B58;&#x6761;&#xFF0C;&#x7136;&#x540E;&#x5C06;&#x5185;&#x5B58;&#x6761;&#x9010;&#x4E00;&#x5B89;&#x88C5;&#x5728;&#x4E3B;&#x677F;&#x4E0A;&#x5747;&#x80FD;&#x6B63;&#x5E38;&#x663E;&#x793A;&#xFF0C;&#x5E76;&#x65E0;&#x8D28;&#x91CF;&#x95EE;&#x9898;&#x3002;&#x7531;&#x6B64;&#x53EF;&#x5224;&#x65AD;&#x51FA;&#x8BE5;&#x6545;&#x969C;&#x662F;&#x7531;&#x5185;&#x5B58;&#x4E0D;&#x80FD;&#x517C;&#x5BB9;&#x6240;&#x81F4;&#x3002;</li>
+<li>&#x66F4;&#x6362;&#x540C;&#x578B;&#x53F7;&#x5185;&#x5B58;&#x6761;&#x6216;&#x5347;&#x7EA7;&#x4E3B;&#x677F;BIOS&#x5373;&#x53EF;&#x6392;&#x9664;&#x6545;&#x969C;&#x3002;</li>
+<li>&#x6CE8;&#x610F;&#xFF1A;&#x5C3D;&#x91CF;&#x4E0D;&#x8981;&#x5C06;&#x578B;&#x53F7;&#x4E0D;&#x540C;&#x7684;&#x51E0;&#x79CD;&#x5185;&#x5B58;&#x6DF7;&#x7528;&#xFF0C;&#x8FD9;&#x6837;&#x6709;&#x5229;&#x4E8E;&#x9884;&#x9632;&#x5185;&#x5B58;&#x517C;&#x5BB9;&#x6027;&#x6545;&#x969C;&#x7684;&#x53D1;&#x751F;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<h3 id="3&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x4E0D;&#x540C;&#x6545;&#x969C;"><a name="3&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x4E0D;&#x540C;&#x6545;&#x969C;" class="anchor-navigation-ex-anchor" href="#3&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x4E0D;&#x540C;&#x6545;&#x969C;"><i class="fa fa-link" aria-hidden="true"></i></a>3.&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x4E0D;&#x540C;&#x6545;&#x969C;</h3>
+<ul>
+<li>&#x6545;&#x969C;&#x73B0;&#x8C61;&#xFF1A;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x5728;&#x4F7F;&#x7528;&#x65F6;&#x7ECF;&#x5E38;&#x51FA;&#x73B0;&#x968F;&#x673A;&#x6027;&#x6B7B;&#x673A;&#x73B0;&#x8C61;&#x3002;</li>
+<li>&#x539F;&#x56E0;&#x5206;&#x6790;&#xFF1A;&#x8BE5;&#x6545;&#x969C;&#x73B0;&#x8C61;&#x4EA7;&#x751F;&#x7684;&#x539F;&#x56E0;&#x4E3B;&#x8981;&#x662F;&#x56E0;&#x4E3A;&#x4F7F;&#x7528;&#x4E86;&#x51E0;&#x79CD;&#x82AF;&#x7247;&#x4E0D;&#x540C;&#x7684;&#x5185;&#x5B58;&#x6761;&#xFF0C;&#x4E0D;&#x540C;&#x82AF;&#x7247;&#x7684;&#x5185;&#x5B58;&#x6761;&#x901F;&#x5EA6;&#x4E5F;&#x4E0D;&#x76F8;&#x540C;&#xFF0C;&#x4E8E;&#x662F;&#x4FBF;&#x4EA7;&#x751F;&#x4E86;&#x4E00;&#x4E2A;&#x65F6;&#x95F4;&#x5DEE;&#xFF0C;&#x8FDB;&#x800C;&#x5F15;&#x53D1;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x6B7B;&#x673A;&#x3002;</li>
+<li>&#x7EF4;&#x4FEE;&#x65B9;&#x6CD5;&#xFF1A;&#x964D;&#x4F4E;CMOS&#x8BBE;&#x7F6E;&#x4E2D;&#x7684;&#x5185;&#x5B58;&#x901F;&#x5EA6;&#x6216;&#x4F7F;&#x7528;&#x540C;&#x578B;&#x53F7;&#x7684;&#x5185;&#x5B58;&#x5747;&#x53EF;&#x6392;&#x9664;&#x6545;&#x969C;&#x3002;</li>
+<li>&#x63D0;&#x793A;&#xFF1A;&#x6709;&#x65F6;&#x5019;&#x5185;&#x5B58;&#x4E0E;&#x4E3B;&#x677F;&#x4E0D;&#x517C;&#x5BB9;&#x6216;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#x4E5F;&#x4F1A;&#x5F15;&#x53D1;&#x8BE5;&#x6545;&#x969C;&#x73B0;&#x8C61;&#xFF0C;&#x6B64;&#x65F6;&#x53EA;&#x8981;&#x66F4;&#x6362;&#x5185;&#x5B58;&#x5373;&#x53EF;&#x6392;&#x9664;&#x6545;&#x969C;&#x3002;</li>
+</ul>
+<h3 id="4&#x5185;&#x5B58;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#x6545;&#x969C;"><a name="4&#x5185;&#x5B58;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#x6545;&#x969C;" class="anchor-navigation-ex-anchor" href="#4&#x5185;&#x5B58;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#x6545;&#x969C;"><i class="fa fa-link" aria-hidden="true"></i></a>4.&#x5185;&#x5B58;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#x6545;&#x969C;</h3>
+<ul>
+<li><p>&#x5185;&#x5B58;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#x5C06;&#x4F1A;&#x5F15;&#x53D1;&#x4E24;&#x79CD;&#x6545;&#x969C;&#xFF1A;&#x5F00;&#x673A;&#x542F;&#x52A8;&#x65F6;&#xFF0C;&#x6709;&#x65F6;&#x6B63;&#x5E38;&#x6709;&#x65F6;&#x4E0D;&#x6B63;&#x5E38;&#x6216;Windows&#x7CFB;&#x7EDF;&#x8FD0;&#x884C;&#x4E0D;&#x7A33;&#x5B9A;&#x6613;&#x4EA7;&#x751F;&#x975E;&#x6CD5;&#x9519;&#x8BEF;&#x3002;&#x4E0B;&#x9762;&#x5206;&#x522B;&#x4ECB;&#x7ECD;&#x8FD9;&#x4E24;&#x79CD;&#x6545;&#x969C;&#x7684;&#x7EF4;&#x4FEE;&#x65B9;&#x6CD5;&#x3002;</p>
+</li>
+<li><p>&#xFF08;1&#xFF09;&#x7535;&#x8111;&#x5728;&#x5F00;&#x673A;&#x542F;&#x52A8;&#x65F6;&#xFF0C;&#x6709;&#x65F6;&#x4F1A;&#x6B63;&#x5E38;&#xFF0C;&#x6709;&#x65F6;&#x4E0D;&#x6B63;&#x5E38;</p>
+<ul>
+<li><p>&#x539F;&#x56E0;&#x5206;&#x6790;&#xFF1A;&#x6B64;&#x6545;&#x969C;&#x4EA7;&#x751F;&#x7684;&#x539F;&#x56E0;&#x53EF;&#x80FD;&#x662F;&#x4E3B;&#x677F;&#x4E0A;&#x6709;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#x7684;&#x7535;&#x8111;&#x786C;&#x4EF6;&#x8BBE;&#x5907;&#xFF0C;&#x5176;&#x4E2D;&#x5185;&#x5B58;&#x6761;&#x4E0E;&#x4E3B;&#x677F;&#x5185;&#x5B58;&#x63D2;&#x69FD;&#x6700;&#x6709;&#x53EF;&#x80FD;&#x3002;&#x9996;&#x5148;&#x6253;&#x5F00;&#x7535;&#x8111;&#x4E3B;&#x673A;&#x7BB1;&#xFF0C;&#x7136;&#x540E;&#x62D4;&#x4E0B;&#x5185;&#x5B58;&#x6761;&#xFF0C;&#x53D1;&#x73B0;&#x5185;&#x5B58;&#x63D2;&#x69FD;&#x5185;&#x6709;&#x8BB8;&#x591A;&#x7070;&#x5C18;&#x3002;&#x7531;&#x6B64;&#x53EF;&#x5224;&#x65AD;&#x8BE5;&#x6545;&#x969C;&#x662F;&#x56E0;&#x7070;&#x5C18;&#x8FC7;&#x591A;&#x5BFC;&#x81F4;&#x5185;&#x5B58;&#x4E0E;&#x5185;&#x5B58;&#x63D2;&#x69FD;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#x3002;</p>
+</li>
+<li><p>&#x7EF4;&#x4FEE;&#x65B9;&#x6CD5;&#xFF1A; </p>
+<p> &#x5148;&#x7528;&#x65E0;&#x6C34;&#x9152;&#x7CBE;&#x5C06;&#x5185;&#x5B58;&#x63D2;&#x69FD;&#x6E05;&#x7406;&#x5E72;&#x51C0;&#x3002;</p>
+<p> &#x7136;&#x540E;&#x5C06;&#x5185;&#x5B58;&#x6761;&#x91CD;&#x65B0;&#x63D2;&#x597D;&#x3002;</p>
+<p> &#x5F00;&#x673A;&#x8FDB;&#x884C;&#x6D4B;&#x8BD5;&#xFF0C;&#x7535;&#x8111;&#x6B63;&#x5E38;&#x542F;&#x52A8;&#xFF0C;&#x6545;&#x969C;&#x6392;&#x9664;&#x3002;</p>
+</li>
+</ul>
+</li>
+<li><p>&#xFF08;2&#xFF09;Windows&#x7CFB;&#x7EDF;&#x8FD0;&#x884C;&#x4E0D;&#x7A33;&#x5B9A;&#xFF0C;&#x5BB9;&#x6613;&#x4EA7;&#x751F;&#x975E;&#x6CD5;&#x9519;&#x8BEF;</p>
+<ul>
+<li><p>&#x539F;&#x56E0;&#x5206;&#x6790;&#xFF1A;&#x5F15;&#x53D1;&#x6B64;&#x6545;&#x969C;&#x7684;&#x539F;&#x56E0;&#x4E3A;&#x5185;&#x5B58;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#x3001;&#x4E3B;&#x677F;&#x5185;&#x5B58;&#x8D28;&#x91CF;&#x4E0D;&#x4F73;&#x6216;&#x8F6F;&#x4EF6;&#x539F;&#x56E0;&#xFF08;&#x5982;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E2D;&#x6BD2;&#x3001;&#x5E94;&#x7528;&#x8F6F;&#x4EF6;&#x51FA;&#x73B0;&#x95EE;&#x9898;&#x7B49;&#xFF09;&#x3002;</p>
+</li>
+<li><p>&#x7EF4;&#x4FEE;&#x65B9;&#x6CD5;&#xFF1A;&#x9488;&#x5BF9;&#x4E0D;&#x540C;&#x7684;&#x6545;&#x969C;&#x4EA7;&#x751F;&#x7684;&#x539F;&#x56E0;&#x4E0D;&#x540C;&#xFF0C;&#x6545;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x65B9;&#x6CD5;&#x8FDB;&#x884C;&#x7EF4;&#x4FEE;&#xFF0C;&#x65B9;&#x6CD5;&#x5982;&#x4E0B;&#x3002;</p>
+<ul>
+<li><p>&#x5982;&#x679C;&#x662F;&#x5185;&#x5B58;&#x63A5;&#x89E6;&#x4E0D;&#x826F;&#x7684;&#x539F;&#x56E0;&#x6240;&#x81F4;&#xFF0C;&#x5C06;&#x5185;&#x5B58;&#x6761;&#x5378;&#x4E0B;&#x6765;&#xFF0C;&#x7136;&#x540E;&#x6E05;&#x7406;&#x5E72;&#x51C0;&#x5185;&#x5B58;&#x4E0A;&#x7684;&#x7070;&#x5C18;&#x6216;&#x6C27;&#x5316;&#x7269;&#xFF0C;&#x6700;&#x540E;&#x91CD;&#x65B0;&#x5B89;&#x88C5;&#x597D;&#x5185;&#x5B58;&#x6761;&#x5373;&#x53EF;&#x6392;&#x9664;&#x6545;&#x969C;&#x3002;</p>
+<p> &#x5982;&#x679C;&#x6545;&#x969C;&#x662F;&#x56E0;&#x5185;&#x5B58;&#x8D28;&#x91CF;&#x4E0D;&#x4F73;&#x6240;&#x81F4;&#xFF0C;&#x66F4;&#x6362;&#x8D28;&#x91CF;&#x597D;&#x7684;&#x5185;&#x5B58;&#x6761;&#x5373;&#x53EF;&#x6392;&#x9664;&#x6545;&#x969C;&#x3002;</p>
+<p> &#x5982;&#x679C;&#x662F;&#x8F6F;&#x4EF6;&#x4E2D;&#x6BD2;&#x7684;&#x8BDD;&#xFF0C;&#x7528;&#x6740;&#x6BD2;&#x8F6F;&#x4EF6;&#x67E5;&#x6740;&#x75C5;&#x6BD2;&#x5373;&#x53EF;&#x6392;&#x9664;&#x6545;&#x969C;&#x3002;</p>
+<p> &#x5982;&#x679C;&#x662F;&#x56E0;&#x8F6F;&#x4EF6;&#x539F;&#x56E0;&#x5F15;&#x53D1;&#x7684;&#x6545;&#x969C;&#xFF0C;&#x53EA;&#x9700;&#x5C06;&#x8F6F;&#x4EF6;&#x91CD;&#x65B0;&#x5B89;&#x88C5;&#x4E00;&#x6B21;&#x5373;&#x53EF;&#x6392;&#x9664;&#x6545;&#x969C;&#x3002;</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="5&#x5185;&#x5B58;&#x8D28;&#x91CF;&#x4E0D;&#x4F73;&#x6545;&#x969C;"><a name="5&#x5185;&#x5B58;&#x8D28;&#x91CF;&#x4E0D;&#x4F73;&#x6545;&#x969C;" class="anchor-navigation-ex-anchor" href="#5&#x5185;&#x5B58;&#x8D28;&#x91CF;&#x4E0D;&#x4F73;&#x6545;&#x969C;"><i class="fa fa-link" aria-hidden="true"></i></a>5.&#x5185;&#x5B58;&#x8D28;&#x91CF;&#x4E0D;&#x4F73;&#x6545;&#x969C;</h3>
+<ul>
+<li><p>&#x6545;&#x969C;&#x63CF;&#x8FF0;&#xFF1A;&#x7535;&#x8111;&#x7684;Windows&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7ECF;&#x5E38;&#x81EA;&#x52A8;&#x8FDB;&#x5165;&#x5B89;&#x5168;&#x6A21;&#x5F0F;&#x3002;</p>
+</li>
+<li><p>&#x539F;&#x56E0;&#x5206;&#x6790;&#xFF1A;&#x5982;&#x679C;&#x8D2D;&#x4E70;&#x7684;&#x5185;&#x5B58;&#x8D28;&#x91CF;&#x4E0D;&#x4F73;&#x6216;&#x5185;&#x5B58;&#x4E0E;&#x4E3B;&#x677F;&#x4E0D;&#x517C;&#x5BB9;&#xFF0C;&#x90FD;&#x4F1A;&#x4EA7;&#x751F;&#x8BE5;&#x6545;&#x969C;&#x73B0;&#x8C61;&#x3002;&#x6B64;&#x5916;&#xFF0C;&#x7CFB;&#x7EDF;&#x8D85;&#x9891;&#x4E5F;&#x4F1A;&#x51FA;&#x73B0;&#x8BE5;&#x6545;&#x969C;&#x73B0;&#x8C61;&#x3002;</p>
+</li>
+<li><p>&#x7EF4;&#x4FEE;&#x65B9;&#x6CD5;&#xFF1A;&#x5206;&#x6790;&#x5E76;&#x4E86;&#x89E3;&#x4E86;&#x5F15;&#x53D1;&#x8BE5;&#x6545;&#x969C;&#x7684;&#x539F;&#x56E0;&#x540E;&#xFF0C;&#x53EF;&#x6839;&#x636E;&#x5982;&#x4E0B;&#x6240;&#x8FF0;&#x6B65;&#x9AA4;&#x7EF4;&#x4FEE;&#x6545;&#x969C;&#x3002;</p>
+<ul>
+<li><p>&#x964D;&#x4F4E;CMOS&#x4E2D;&#x7684;&#x5185;&#x5B58;&#x8BFB;&#x53D6;&#x901F;&#x5EA6;&#x6216;&#x8005;&#x901A;&#x8FC7;&#x4E3B;&#x677F;&#x5F02;&#x6B65;&#x529F;&#x80FD;&#x8C03;&#x4F4E;&#x5185;&#x5B58;&#x9891;&#x7387;&#xFF0C;&#x770B;&#x6545;&#x969C;&#x662F;&#x5426;&#x6D88;&#x5931;&#x3002;</p>
+<p> &#x68C0;&#x6D4B;&#x7CFB;&#x7EDF;&#x662F;&#x5426;&#x8D85;&#x9891;&#x3002;&#x5982;&#x679C;&#x662F;&#x56E0;&#x7CFB;&#x7EDF;&#x8D85;&#x9891;&#x6240;&#x5F15;&#x8D77;&#x7684;&#x73B0;&#x8C61;&#xFF0C;&#x53EA;&#x9700;&#x5C06;&#x7CFB;&#x7EDF;&#x6062;&#x590D;&#x5230;&#x6B63;&#x5E38;&#x7684;&#x5DE5;&#x4F5C;&#x9891;&#x7387;&#x5373;&#x53EF;&#x6392;&#x9664;&#x6545;&#x969C;&#x3002;</p>
+<p> &#x5982;&#x679C;&#x6545;&#x969C;&#x5C1A;&#x672A;&#x6D88;&#x5931;&#xFF0C;&#x66F4;&#x6362;&#x8D28;&#x91CF;&#x597D;&#x7684;&#x5185;&#x5B58;&#x6761;&#x5373;&#x53EF;&#x6392;&#x9664;&#x6545;&#x969C;</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="6&#x975E;&#x6CD5;&#x64CD;&#x4F5C;&#x6545;&#x969C;"><a name="6&#x975E;&#x6CD5;&#x64CD;&#x4F5C;&#x6545;&#x969C;" class="anchor-navigation-ex-anchor" href="#6&#x975E;&#x6CD5;&#x64CD;&#x4F5C;&#x6545;&#x969C;"><i class="fa fa-link" aria-hidden="true"></i></a>6.&#x201C;&#x975E;&#x6CD5;&#x64CD;&#x4F5C;&#x201D;&#x6545;&#x969C;</h3>
+<ul>
+<li>&#x6545;&#x969C;&#x63CF;&#x8FF0;&#xFF1A;&#x5728;Windows&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E0B;&#xFF0C;&#x8FD0;&#x884C;&#x67D0;&#x4E00;&#x8F6F;&#x4EF6;&#x65F6;&#x51FA;&#x73B0;&#x975E;&#x6CD5;&#x64CD;&#x4F5C;&#x63D0;&#x793A;&#x4FE1;&#x606F;&#xFF0C;&#x5982;&#x56FE;110&#x6240;&#x793A;&#x3002;</li>
+<li><p><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/110.png" alt=""></p>
+</li>
+<li><p>&#x539F;&#x56E0;&#x5206;&#x6790;&#xFF1A;&#x7535;&#x8111;&#x8FDB;&#x884C;BIOS&#x4F18;&#x5316;&#x65F6;&#xFF0C;&#x4E00;&#x822C;&#x90FD;&#x5C06;&#x5185;&#x5B58;&#x8BBE;&#x7F6E;&#x5728;&#x6700;&#x4F18;&#x72B6;&#x6001;&#x4E0B;&#xFF0C;&#x4F46;&#x5185;&#x5B58;&#x672C;&#x8EAB;&#x8D28;&#x91CF;&#x5E76;&#x4E0D;&#x8FC7;&#x5173;&#xFF0C;&#x5BFC;&#x81F4;&#x7CFB;&#x7EDF;&#x7A33;&#x5B9A;&#x6027;&#x4E0B;&#x964D;&#x3002;</p>
+</li>
+<li><p>&#x7EF4;&#x4FEE;&#x65B9;&#x6CD5;&#xFF1A;</p>
+<ul>
+<li><p>&#x542F;&#x52A8;&#x7535;&#x8111;&#xFF0C;&#x6309;&#x201C;Delete&#x201D;&#x952E;&#x8FDB;&#x5165;BIOS&#x7A0B;&#x5E8F;&#x8BBE;&#x7F6E;&#x4E3B;&#x754C;&#x9762;&#x3002;</p>
+<p>&#x9009;&#x62E9;&#x201C;Advance Chipset Feature&#xFF08;&#x82AF;&#x7247;&#x7EC4;&#x7279;&#x6027;&#x8BBE;&#x7F6E;&#xFF09;&#x201D;&#x9009;&#x9879;&#x3002;</p>
+<p>&#x5C06;&#x201C;SDRAM Cycle Length&#xFF08;&#x5185;&#x5B58;&#x5468;&#x671F;&#xFF09;&#x201D;&#x8BBE;&#x7F6E;&#x9879;&#x7684;&#x201C;2&#x201D;&#x6539;&#x6210;&#x201C;3&#x201D;&#xFF0C;&#x540C;&#x65F6;&#x5C06;&#x201C;Bank Inter Leave&#x201D;&#x8BBE;&#x7F6E;&#x9879;&#x7684;&#x201C;4Bank&#x201D;&#x6539;&#x4E3A;&#x201C;Disable&#x201D;&#x5373;&#x53EF;&#x6392;&#x9664;&#x6545;&#x969C;&#x3002;</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="7&#x5185;&#x5B58;&#x91D1;&#x624B;&#x6307;&#x6C27;&#x5316;&#x6545;&#x969C;"><a name="7&#x5185;&#x5B58;&#x91D1;&#x624B;&#x6307;&#x6C27;&#x5316;&#x6545;&#x969C;" class="anchor-navigation-ex-anchor" href="#7&#x5185;&#x5B58;&#x91D1;&#x624B;&#x6307;&#x6C27;&#x5316;&#x6545;&#x969C;"><i class="fa fa-link" aria-hidden="true"></i></a>7.&#x5185;&#x5B58;&#x91D1;&#x624B;&#x6307;&#x6C27;&#x5316;&#x6545;&#x969C;</h3>
+<ul>
+<li><p>&#x6545;&#x969C;&#x63CF;&#x8FF0;&#xFF1A;&#x7535;&#x8111;&#x5728;&#x524D;&#x4E00;&#x6B21;&#x64CD;&#x4F5C;&#x4E2D;&#x5747;&#x80FD;&#x6B63;&#x5E38;&#x4F7F;&#x7528;&#xFF0C;&#x4F46;&#x6B64;&#x523B;&#x5374;&#x4E0D;&#x80FD;&#x6B63;&#x5E38;&#x5F00;&#x673A;&#xFF0C;&#x663E;&#x793A;&#x5668;&#x51FA;&#x73B0;&#x9ED1;&#x5C4F;&#xFF0C;&#x5E76;&#x53D1;&#x51FA;&#x201C;&#x5600;&#x3001;&#x5600;&#x3001;&#x6EF4;&#x201D;&#x7684;&#x54CD;&#x58F0;&#x3002;</p>
+</li>
+<li><p>&#x539F;&#x56E0;&#x5206;&#x6790;&#xFF1A;&#x5BFC;&#x81F4;&#x8BE5;&#x6545;&#x969C;&#x53D1;&#x751F;&#x7684;&#x539F;&#x56E0;&#x4E3B;&#x8981;&#x662F;&#x56E0;&#x4E3A;&#x5185;&#x5B58;&#x91D1;&#x624B;&#x6307;&#x88AB;&#x6C27;&#x5316;&#xFF0C;&#x8BE5;&#x6545;&#x969C;&#x591A;&#x53D1;&#x751F;&#x5728;&#x4F7F;&#x7528;&#x4E86;&#x4E00;&#x5E74;&#x4EE5;&#x4E0A;&#x7684;&#x7535;&#x8111;&#xFF0C;&#x5C24;&#x5176;&#x662F;&#x5728;&#x5929;&#x6C14;&#x6F6E;&#x6E7F;&#x6216;&#x6E29;&#x5EA6;&#x53D8;&#x5316;&#x5F88;&#x5927;&#x60C5;&#x51B5;&#x4E0B;&#x3002;</p>
+</li>
+<li><p>&#x7EF4;&#x4FEE;&#x65B9;&#x6CD5;&#xFF1A;</p>
+<ul>
+<li><p>&#x9996;&#x5148;&#x6253;&#x5F00;&#x7535;&#x8111;&#x4E3B;&#x673A;&#x7BB1;&#xFF0C;&#x7136;&#x540E;&#x53D6;&#x51FA;&#x5185;&#x5B58;&#x6761;&#x3002;</p>
+<p>&#x7528;&#x6A61;&#x76AE;&#x64E6;&#x5C06;&#x5185;&#x5B58;&#x91D1;&#x624B;&#x6307;&#x64E6;&#x62ED;&#x5E72;&#x51C0;&#x5373;&#x53EF;&#x6392;&#x9664;&#x6545;&#x969C;&#x3002;</p>
+<p>&#x5728;&#x64E6;&#x62ED;&#x91D1;&#x624B;&#x6307;&#x65F6;&#xFF0C;&#x8981;&#x907F;&#x514D;&#x7528;&#x624B;&#x76F4;&#x63A5;&#x63A5;&#x89E6;&#x91D1;&#x624B;&#x6307;&#xFF0C;&#x4EE5;&#x514D;&#x624B;&#x4E0A;&#x6C57;&#x6DB2;&#x4F1A;&#x9644;&#x7740;&#x5728;&#x91D1;&#x624B;&#x6307;&#x4E0A;&#xFF0C;&#x4F7F;&#x7528;&#x4E00;&#x6BB5;&#x65F6;&#x95F4;&#x540E;&#x4F1A;&#x518D;&#x6B21;&#x9020;&#x6210;&#x91D1;&#x624B;&#x6307;&#x6C27;&#x5316;&#xFF0C;&#x91CD;&#x590D;&#x51FA;&#x73B0;&#x540C;&#x6837;&#x7684;&#x6545;&#x969C;&#x3002;&#x5982;&#x56FE;111&#x6240;&#x793A;&#x7528;&#x6A61;&#x76AE;&#x64E6;&#x64E6;&#x62ED;&#x88AB;&#x6C27;&#x5316;&#x7684;&#x5185;&#x5B58;&#x91D1;&#x624B;&#x6307;&#x3002;</p>
+<p><img src="https://gitee.com/cgqlovesly/PictureWarehouse/raw/master/Python/%20%E7%AC%AC%E4%B8%80%E7%AB%A0:%E7%A1%AC%E4%BB%B6/111.png" alt=""></p>
+</li>
+</ul>
+</li>
+<li><p>&#x8981;&#x70B9;&#xFF1A;&#x5176;&#x4ED6;&#x60C5;&#x51B5;&#x4E5F;&#x4F1A;&#x5BFC;&#x81F4;&#x8BE5;&#x6545;&#x969C;&#x7684;&#x53D1;&#x751F;&#xFF0C;&#x5982;&#x4E3B;&#x677F;&#x4E0E;&#x5185;&#x5B58;&#x517C;&#x5BB9;&#x6027;&#x4E0D;&#x597D;&#x3001;&#x4E3B;&#x677F;&#x7684;&#x5185;&#x5B58;&#x63D2;&#x69FD;&#x8D28;&#x91CF;&#x4F4E;&#x52A3;&#x3001;&#x5185;&#x5B58;&#x67D0;&#x82AF;&#x7247;&#x6545;&#x969C;&#x6216;&#x8005;&#x662F;&#x5176;&#x4ED6;&#x6545;&#x969C;&#x9020;&#x6210;&#x62A5;&#x8B66;&#x3002;&#x5728;&#x7EF4;&#x4FEE;&#x65F6;&#x53EF;&#x4EE5;&#x7528;&#x6392;&#x9664;&#x6CD5;&#x9010;&#x4E00;&#x66FF;&#x6362;&#x89E3;&#x51B3;&#x3002;</p>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="11.CPU维修技术.html" class="navigation navigation-prev " aria-label="Previous page: CPU维修技术">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="13.硬盘、光驱、刻录机维修技术.html" class="navigation navigation-next " aria-label="Next page: 硬盘、光驱、刻录机维修技术">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"内存维修技术","level":"1.2.3.12","depth":3,"next":{"title":"硬盘、光驱、刻录机维修技术","level":"1.2.3.13","depth":3,"path":"第一章 硬件/0.电脑维修目录/13.硬盘、光驱、刻录机维修技术.md","ref":"第一章 硬件/0.电脑维修目录/13.硬盘、光驱、刻录机维修技术.md","articles":[{"title":"显卡、声卡维修技术","level":"1.2.3.13.1","depth":4,"path":"第一章 硬件/0.电脑维修目录/14.显卡、声卡维修技术","ref":"第一章 硬件/0.电脑维修目录/14.显卡、声卡维修技术","articles":[]}]},"previous":{"title":"CPU维修技术","level":"1.2.3.11","depth":3,"path":"第一章 硬件/0.电脑维修目录/11.CPU维修技术.md","ref":"第一章 硬件/0.电脑维修目录/11.CPU维修技术.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-highlight","-livereload","theme-comscore","search-plus@^0.0.11","github@^2.0.0","github-buttons@2.1.0","advanced-emoji@^0.2.1","anchors@^0.7.1","emphasize@^1.1.0","prism@^2.1.0","prism-themes@^0.0.2","splitter","expandable-chapters-small@^0.1.7","sectionx@^3.1.0","donate@^1.0.2","local-video@^1.0.1","anchor-navigation-ex@0.1.8","favicon@^0.0.2","todo@^0.1.3","toc","3-ba@^0.9.0","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"disqus":{"shortName":"gitbookuse"},"emphasize":{},"github":{"url":"https://github.com/StrvieMeet/"},"todo":{},"splitter":{},"toc":{},"donate":{"alipay":"./assets/支付宝.png","alipayText":"支付宝打赏","button":"打赏","title":"","wechat":"./assets/微信.png","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{"tag":"b"},"anchor-navigation-ex":{"isRewritePageTitle":false,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","tocLevel4Icon":"fa fa-hand-o-right"},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"theme-comscore":{},"prism-themes":{},"github-buttons":{"repo":"StrvieMeet/Python","types":["star"],"size":"small"},"3-ba":{"configuration":"auto","token":"ff100361cdce95dd4c8fb96b4009f7bc"},"expandable-chapters-small":{},"local-video":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":true,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"search-plus":{}},"theme":"default","author":"Cgq","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Python学习手册","language":"zh-hans","output.name":"gitbooks","links":{"sidebar":{"Ckk - 博客":"https://www.cnblogs.com/cgqsly/"}},"gitbook":"*","description":"Python学习手册"},"file":{"path":"第一章 硬件/0.电脑维修目录/12.内存维修技术.md","mtime":"2020-08-07T08:48:17.837Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-07T12:57:05.749Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
